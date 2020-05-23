@@ -1,10 +1,10 @@
-![image](https://github.com/traaittCASH/traaittCASH/blob/master/include/traaittCASH.png)
+![image](https://github.com/TRRXITTE/traaittCASH/blob/master/include/traaittCASH.png)
 ![Download Count](https://img.shields.io/github/downloads/traaittplatform/traaittcash/total.svg)
 ![Version](https://img.shields.io/github/v/release/traaittplatform/traaittcash)
 #### Master Build Status
 ![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) 
 
-# traaittCASH [TC]
+# traaittCASH [TCH]
 
 traaittCASH is a fast, easy to use and private decentralized cryptocurrency combined with a powerful ecosystem and an eco-friendly mining algorithm.
 
