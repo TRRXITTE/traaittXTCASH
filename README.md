@@ -1,4 +1,4 @@
-![image](https://github.com/TRRXITTE/traaittCASH/blob/master/include/traaittCASH.png)
+![image](https://github.com/TRRXITTE/traaittCASH/blob/master/docs/cash.png)
 ![Download Count](https://img.shields.io/github/downloads/traaittplatform/traaittcash/total.svg)
 ![Version](https://img.shields.io/github/v/release/traaittplatform/traaittcash)
 #### Master Build Status
