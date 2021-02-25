@@ -190,13 +190,13 @@ add_dependencies(WalletService version)
 add_dependencies(zedwallet version)
 
 # Finally build the binaries
-set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "traaittCASHd")
+set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "XTCASHnetwork")
 set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "cmdwallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "cmdwalletbeta")
-set_property(TARGET WalletService PROPERTY OUTPUT_NAME "traaittcash-service")
+set_property(TARGET WalletService PROPERTY OUTPUT_NAME "XTCASHservice")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "MINER")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
-set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "wallet-api")
+set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "XTCASHwalletapi")
 set_property(TARGET WalletUpgrader PROPERTY OUTPUT_NAME "walletupgrader")
 
 # Additional make targets, can be used to build a subset of the targets
