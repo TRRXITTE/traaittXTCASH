@@ -4,7 +4,7 @@
 #### Master Build Status
 ![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) 
 
-# traaittCASH [TCH]
+# traaittCASH [XTCASH]
 
 traaittCASH is a fast, easy to use and private decentralized cryptocurrency combined with a powerful ecosystem and an eco-friendly mining algorithm.
 

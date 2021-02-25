@@ -1001,7 +1001,7 @@ namespace CryptoNote
                                 << ENDL;
             logger(INFO, BRIGHT_MAGENTA) << "===================================================" << ENDL << ENDL;
 
-            logger(INFO, BRIGHT_GREEN) << asciiArt << ENDL;
+            logger(INFO, BRIGHT_CYAN << asciiArt << ENDL;
 
             m_observerManager.notify(&ICryptoNoteProtocolObserver::blockchainSynchronized, m_core.getTopBlockIndex());
         }
