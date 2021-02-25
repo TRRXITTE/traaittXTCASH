@@ -15,7 +15,7 @@ namespace WalletConfig
     const std::string_view addressPrefix = "cash";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "TCH";
+    const std::string ticker = "XTCASH";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";

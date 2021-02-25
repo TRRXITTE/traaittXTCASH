@@ -347,23 +347,24 @@ namespace CryptoNote
     const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 125; // 125 files
     const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 4; // 4 DB threads
 
-    const char LATEST_VERSION_URL[] = "http://latest.traaittCASH.com";
+    const char LATEST_VERSION_URL[] = "http://github.com/TRRXITTE/traaittCASH/releases";
 
-    const std::string LICENSE_URL = "https://github.com/traaittCASH/traaittCASH/blob/master/LICENSE";
+    const std::string LICENSE_URL = "https://github.com/TRRXITTE/traaittCASH/blob/master/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
         {0xb7, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
 
     const char *const SEED_NODES[] = {
-	  "34.94.53.44:14487", //USASEEDNODE
-      "34.89.3.246:14487", //EUROPESEEDNODE
-      "34.87.165.129:14487", //ASIASEEDNODE
-      "35.185.104.116:14487", //USASEEDNODE
-      "35.236.125.196:14487", //USASEEDNODE
-      "35.229.225.178:14487", //ASIASEEDNODE
-      "34.85.30.233:14487", //ASIASEEDNODE
-	  "34.87.49.133:14487", //ASIASEEDNODE
-      "35.234.143.169:14487", //EUSEEDNODE
-      "34.65.28.154:14487"    //EUSEEDNODE
+	  "34.94.53.44:14487", //PRIMARY SET
+      "34.87.165.129:14487", //
+      "34.89.3.246:14487", //
+      "35.241.111.255:14487", //XTCASH WORLDWIDE
+      "34.64.172.203:14487", //XTCASH WORLDWIDE
+      "34.87.112.219:14487", //XTCASH WORLDWIDE
+      "35.246.10.246:14487", //XTCASH WORLDWIDE
+	  "34.107.123.203:14487", //XTCASH WORLDWIDE
+      "34.95.173.217:14487", //XTCASH WORLDWIDE
+      "34.86.103.64:14487", //XTCASH WORLDWIDE
+      "34.106.203.152:14487" //XTCASH WORLDWIDE
     };
 } // namespace CryptoNote
