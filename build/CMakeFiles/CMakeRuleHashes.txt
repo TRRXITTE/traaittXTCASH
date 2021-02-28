@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+630e08317a6fa8ac2d3aab1071683a35 CMakeFiles/version
+b16ff1288ec3995e881ad5ab6bb255cb external/CMakeFiles/rocksdb
+5095dbb730e6802d33020c593d4c60c8 external/cryptopp/CMakeFiles/static
+5a6b616f547fed7db5bb0678270d7c17 src/CMakeFiles/cli
+5a6b616f547fed7db5bb0678270d7c17 src/CMakeFiles/pool
+5a6b616f547fed7db5bb0678270d7c17 src/CMakeFiles/solominer

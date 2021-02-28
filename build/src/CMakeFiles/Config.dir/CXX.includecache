@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/config/Config.h
+
+/Users/traaitt/Documents/GitHub/traaittCASH/src/config/Config.cpp
+config/Config.h
+-
+

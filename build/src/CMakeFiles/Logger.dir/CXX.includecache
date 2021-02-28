@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/logger/Logger.h
+functional
+-
+string
+-
+vector
+-
+
+/Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp
+logger/Logger.h
+-
+algorithm
+-
+ctime
+-
+iomanip
+-
+iostream
+-
+sstream
+-
+

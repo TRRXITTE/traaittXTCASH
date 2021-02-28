@@ -1,0 +1,722 @@
+The system is: Darwin - 20.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/opt/llvm@8/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/3.19.6/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/opt/llvm@8/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/3.19.6/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7beb7/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7beb7.dir/build.make CMakeFiles/cmTC_7beb7.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o
+/usr/local/opt/llvm@8/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -v -Wl,-v -o CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c
+clang version 8.0.1 (tags/RELEASE_801/final)
+Target: x86_64-apple-darwin20.2.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm@8/bin
+clang-8: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang-8" -cc1 -triple x86_64-apple-macosx10.16.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 556.6 -v -coverage-notes-file /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fdebug-compilation-dir /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.16.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-apple-darwin20.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_7beb7
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7beb7.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -o cmTC_7beb7 
+clang version 8.0.1 (tags/RELEASE_801/final)
+Target: x86_64-apple-darwin20.2.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm@8/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.16.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_7beb7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include] ==> [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  implicit include dirs: [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_7beb7/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7beb7.dir/build.make CMakeFiles/cmTC_7beb7.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/opt/llvm@8/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -v -Wl -v -o CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
+  ignore line: [Target: x86_64-apple-darwin20.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/opt/llvm@8/bin]
+  ignore line: [clang-8: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang-8" -cc1 -triple x86_64-apple-macosx10.16.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 556.6 -v -coverage-notes-file /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fdebug-compilation-dir /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.16.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-apple-darwin20.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_7beb7]
+  ignore line: [/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7beb7.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/opt/llvm@8/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -o cmTC_7beb7 ]
+  ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
+  ignore line: [Target: x86_64-apple-darwin20.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/opt/llvm@8/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.16.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_7beb7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.16.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7beb7] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7beb7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d6f7e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d6f7e.dir/build.make CMakeFiles/cmTC_d6f7e.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/opt/llvm@8/bin/clang++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -v -Wl,-v -o CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang version 8.0.1 (tags/RELEASE_801/final)
+Target: x86_64-apple-darwin20.2.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm@8/bin
+clang-8: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang-8" -cc1 -triple x86_64-apple-macosx10.16.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 556.6 -v -coverage-notes-file /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /usr/local/opt/llvm@8/bin/../include/c++/v1 -fdeprecated-macro -fdebug-compilation-dir /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.16.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-apple-darwin20.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/opt/llvm@8/bin/../include/c++/v1
+ /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_d6f7e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f7e.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d6f7e 
+clang version 8.0.1 (tags/RELEASE_801/final)
+Target: x86_64-apple-darwin20.2.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm@8/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.16.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d6f7e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/opt/llvm@8/bin/../include/c++/v1]
+    add: [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/opt/llvm@8/bin/../include/c++/v1] ==> [/usr/local/opt/llvm@8/include/c++/v1]
+  collapse include dir [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include] ==> [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  implicit include dirs: [/usr/local/opt/llvm@8/include/c++/v1;/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_d6f7e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d6f7e.dir/build.make CMakeFiles/cmTC_d6f7e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/opt/llvm@8/bin/clang++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -v -Wl -v -o CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
+  ignore line: [Target: x86_64-apple-darwin20.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/opt/llvm@8/bin]
+  ignore line: [clang-8: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang-8" -cc1 -triple x86_64-apple-macosx10.16.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 556.6 -v -coverage-notes-file /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /usr/local/opt/llvm@8/bin/../include/c++/v1 -fdeprecated-macro -fdebug-compilation-dir /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.16.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-apple-darwin20.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/opt/llvm@8/bin/../include/c++/v1]
+  ignore line: [ /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_d6f7e]
+  ignore line: [/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f7e.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/opt/llvm@8/bin/clang++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d6f7e ]
+  ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
+  ignore line: [Target: x86_64-apple-darwin20.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/opt/llvm@8/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.16.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d6f7e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Cellar/llvm@8/8.0.1_3/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.16.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d6f7e] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d6f7e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_abb04/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_abb04.dir/build.make CMakeFiles/cmTC_abb04.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abb04.dir/CheckIncludeFile.c.o
+/usr/local/opt/llvm@8/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_abb04.dir/CheckIncludeFile.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_abb04
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abb04.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_abb04.dir/CheckIncludeFile.c.o -o cmTC_abb04 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_feb4e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_feb4e.dir/build.make CMakeFiles/cmTC_feb4e.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feb4e.dir/src.c.o
+/usr/local/opt/llvm@8/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_feb4e.dir/src.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_feb4e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb4e.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_feb4e.dir/src.c.o -o cmTC_feb4e 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+clang version 8.0.1 (tags/RELEASE_801/final)
+Target: x86_64-apple-darwin20.2.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm@8/bin
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_skylake succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4bef9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4bef9.dir/build.make CMakeFiles/cmTC_4bef9.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bef9.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__march_skylake  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -march=skylake -std=c++17 -o CMakeFiles/cmTC_4bef9.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4bef9
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bef9.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4bef9.dir/src.cxx.o -o cmTC_4bef9 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse2 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3e1aa/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3e1aa.dir/build.make CMakeFiles/cmTC_3e1aa.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e1aa.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__msse2  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -msse2 -std=c++17 -o CMakeFiles/cmTC_3e1aa.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3e1aa
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e1aa.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3e1aa.dir/src.cxx.o -o cmTC_3e1aa 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse3 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3f95b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3f95b.dir/build.make CMakeFiles/cmTC_3f95b.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f95b.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__msse3  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -msse3 -std=c++17 -o CMakeFiles/cmTC_3f95b.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f95b
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f95b.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3f95b.dir/src.cxx.o -o cmTC_3f95b 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_32c0e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_32c0e.dir/build.make CMakeFiles/cmTC_32c0e.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32c0e.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm@8/bin/clang++   -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -msse3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_32c0e.dir/CheckIncludeFile.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_32c0e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c0e.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -msse3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32c0e.dir/CheckIncludeFile.cxx.o -o cmTC_32c0e 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mssse3 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_81ded/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_81ded.dir/build.make CMakeFiles/cmTC_81ded.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81ded.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mssse3  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mssse3 -std=c++17 -o CMakeFiles/cmTC_81ded.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81ded
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ded.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_81ded.dir/src.cxx.o -o cmTC_81ded 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file tmmintrin.h exists passed with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e44b3/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e44b3.dir/build.make CMakeFiles/cmTC_e44b3.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e44b3.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm@8/bin/clang++   -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -mssse3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e44b3.dir/CheckIncludeFile.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e44b3
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e44b3.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -mssse3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e44b3.dir/CheckIncludeFile.cxx.o -o cmTC_e44b3 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_1 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_a6cdd/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a6cdd.dir/build.make CMakeFiles/cmTC_a6cdd.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6cdd.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__msse4_1  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -msse4.1 -std=c++17 -o CMakeFiles/cmTC_a6cdd.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a6cdd
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6cdd.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6cdd.dir/src.cxx.o -o cmTC_a6cdd 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_89a22/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_89a22.dir/build.make CMakeFiles/cmTC_89a22.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89a22.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm@8/bin/clang++   -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -msse4.1  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_89a22.dir/CheckIncludeFile.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_89a22
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a22.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -msse4.1  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89a22.dir/CheckIncludeFile.cxx.o -o cmTC_89a22 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_2 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1b720/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1b720.dir/build.make CMakeFiles/cmTC_1b720.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b720.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__msse4_2  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -msse4.2 -std=c++17 -o CMakeFiles/cmTC_1b720.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b720
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b720.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1b720.dir/src.cxx.o -o cmTC_1b720 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_552c7/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_552c7.dir/build.make CMakeFiles/cmTC_552c7.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_552c7.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mavx  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mavx -std=c++17 -o CMakeFiles/cmTC_552c7.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_552c7
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552c7.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_552c7.dir/src.cxx.o -o cmTC_552c7 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1959a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1959a.dir/build.make CMakeFiles/cmTC_1959a.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1959a.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm@8/bin/clang++   -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -mavx  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_1959a.dir/CheckIncludeFile.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1959a
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1959a.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything -mavx  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1959a.dir/CheckIncludeFile.cxx.o -o cmTC_1959a 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mfma succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_35a2d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_35a2d.dir/build.make CMakeFiles/cmTC_35a2d.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35a2d.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mfma  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mfma -std=c++17 -o CMakeFiles/cmTC_35a2d.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35a2d
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35a2d.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35a2d.dir/src.cxx.o -o cmTC_35a2d 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+      __m128 foo(__m128 x) { return _mm_fmadd_ps(x, x, x); }
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mbmi2 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_35e4e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_35e4e.dir/build.make CMakeFiles/cmTC_35e4e.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35e4e.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mbmi2  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mbmi2 -std=c++17 -o CMakeFiles/cmTC_35e4e.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35e4e
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e4e.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35e4e.dir/src.cxx.o -o cmTC_35e4e 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx2 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_9f314/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_9f314.dir/build.make CMakeFiles/cmTC_9f314.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f314.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mavx2  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mavx2 -std=c++17 -o CMakeFiles/cmTC_9f314.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9f314
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f314.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9f314.dir/src.cxx.o -o cmTC_9f314 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4a succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_554e8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_554e8.dir/build.make CMakeFiles/cmTC_554e8.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_554e8.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_sse4a  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-sse4a -std=c++17 -o CMakeFiles/cmTC_554e8.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_554e8
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_554e8.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_554e8.dir/src.cxx.o -o cmTC_554e8 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_xop succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_695a9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_695a9.dir/build.make CMakeFiles/cmTC_695a9.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_695a9.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_xop  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-xop -std=c++17 -o CMakeFiles/cmTC_695a9.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_695a9
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_695a9.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_695a9.dir/src.cxx.o -o cmTC_695a9 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma4 succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b002d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b002d.dir/build.make CMakeFiles/cmTC_b002d.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b002d.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_fma4  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-fma4 -std=c++17 -o CMakeFiles/cmTC_b002d.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b002d
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b002d.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b002d.dir/src.cxx.o -o cmTC_b002d 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512f succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ed670/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ed670.dir/build.make CMakeFiles/cmTC_ed670.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed670.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512f  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512f -std=c++17 -o CMakeFiles/cmTC_ed670.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ed670
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed670.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ed670.dir/src.cxx.o -o cmTC_ed670 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vl succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_c7832/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_c7832.dir/build.make CMakeFiles/cmTC_c7832.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7832.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512vl  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512vl -std=c++17 -o CMakeFiles/cmTC_c7832.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7832
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7832.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c7832.dir/src.cxx.o -o cmTC_c7832 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512pf succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_773ca/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_773ca.dir/build.make CMakeFiles/cmTC_773ca.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_773ca.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512pf  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512pf -std=c++17 -o CMakeFiles/cmTC_773ca.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_773ca
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_773ca.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_773ca.dir/src.cxx.o -o cmTC_773ca 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512er succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_deea6/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_deea6.dir/build.make CMakeFiles/cmTC_deea6.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_deea6.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512er  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512er -std=c++17 -o CMakeFiles/cmTC_deea6.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_deea6
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deea6.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_deea6.dir/src.cxx.o -o cmTC_deea6 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512cd succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_aefbb/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_aefbb.dir/build.make CMakeFiles/cmTC_aefbb.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aefbb.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512cd  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512cd -std=c++17 -o CMakeFiles/cmTC_aefbb.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aefbb
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefbb.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aefbb.dir/src.cxx.o -o cmTC_aefbb 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512dq succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e35fe/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e35fe.dir/build.make CMakeFiles/cmTC_e35fe.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e35fe.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512dq  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512dq -std=c++17 -o CMakeFiles/cmTC_e35fe.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e35fe
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e35fe.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e35fe.dir/src.cxx.o -o cmTC_e35fe 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512bw succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_9eb53/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_9eb53.dir/build.make CMakeFiles/cmTC_9eb53.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9eb53.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512bw  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512bw -std=c++17 -o CMakeFiles/cmTC_9eb53.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9eb53
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb53.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9eb53.dir/src.cxx.o -o cmTC_9eb53 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512ifma succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_630c9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_630c9.dir/build.make CMakeFiles/cmTC_630c9.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_630c9.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512ifma  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512ifma -std=c++17 -o CMakeFiles/cmTC_630c9.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_630c9
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_630c9.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_630c9.dir/src.cxx.o -o cmTC_630c9 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vbmi succeeded with the following output:
+Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ff81d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ff81d.dir/build.make CMakeFiles/cmTC_ff81d.dir/build
+gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff81d.dir/src.cxx.o
+/usr/local/opt/llvm@8/bin/clang++ -Dcheck_cxx_compiler_flag__mno_avx512vbmi  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk   -mno-avx512vbmi -std=c++17 -o CMakeFiles/cmTC_ff81d.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ff81d
+/usr/local/Cellar/cmake/3.19.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff81d.dir/link.txt --verbose=1
+/usr/local/opt/llvm@8/bin/clang++  -std=c++17  -Wall -Wextra -Wpointer-arith -Wvla -Wwrite-strings  -Wno-error=extra -Wno-error=unused-function -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=missing-braces -Wno-error=unused-command-line-argument -Wno-reorder -Wno-missing-field-initializers -march=native -maes -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1 -w -Wno-everything  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ff81d.dir/src.cxx.o -o cmTC_ff81d 
+gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
