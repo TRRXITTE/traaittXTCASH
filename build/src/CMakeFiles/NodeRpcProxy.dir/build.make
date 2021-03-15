@@ -79,28 +79,28 @@ include src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o: ../src/noderpcproxy/NodeErrors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp
 
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.i
 
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.s
 
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o: ../src/noderpcproxy/NodeRpcProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp
 
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.i
 
 src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.s
 
 # Object files for target NodeRpcProxy
 NodeRpcProxy_OBJECTS = \

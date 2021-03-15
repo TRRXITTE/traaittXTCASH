@@ -79,15 +79,15 @@ include src/CMakeFiles/JsonRpcServer.dir/flags.make
 src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o: src/CMakeFiles/JsonRpcServer.dir/flags.make
 src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o: ../src/jsonrpcserver/JsonRpcServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp
 
 src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp > CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp > CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.i
 
 src/CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp -o CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/jsonrpcserver/JsonRpcServer.cpp -o CMakeFiles/JsonRpcServer.dir/jsonrpcserver/JsonRpcServer.cpp.s
 
 # Object files for target JsonRpcServer
 JsonRpcServer_OBJECTS = \

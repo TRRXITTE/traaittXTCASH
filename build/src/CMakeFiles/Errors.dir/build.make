@@ -79,28 +79,28 @@ include src/CMakeFiles/Errors.dir/flags.make
 src/CMakeFiles/Errors.dir/errors/Errors.cpp.o: src/CMakeFiles/Errors.dir/flags.make
 src/CMakeFiles/Errors.dir/errors/Errors.cpp.o: ../src/errors/Errors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Errors.dir/errors/Errors.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Errors.dir/errors/Errors.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Errors.dir/errors/Errors.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp
 
 src/CMakeFiles/Errors.dir/errors/Errors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Errors.dir/errors/Errors.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp > CMakeFiles/Errors.dir/errors/Errors.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp > CMakeFiles/Errors.dir/errors/Errors.cpp.i
 
 src/CMakeFiles/Errors.dir/errors/Errors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Errors.dir/errors/Errors.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp -o CMakeFiles/Errors.dir/errors/Errors.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp -o CMakeFiles/Errors.dir/errors/Errors.cpp.s
 
 src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o: src/CMakeFiles/Errors.dir/flags.make
 src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o: ../src/errors/ValidateParameters.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp
 
 src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp > CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp > CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.i
 
 src/CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp -o CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp -o CMakeFiles/Errors.dir/errors/ValidateParameters.cpp.s
 
 # Object files for target Errors
 Errors_OBJECTS = \

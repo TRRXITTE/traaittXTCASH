@@ -36,7 +36,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/zstd/lib/dictBuilder/fastcover.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/fastcover.c.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/zstd/lib/dictBuilder/zdict.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/zstd/CMakeFiles/zstd.dir/lib/dictBuilder/zdict.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C

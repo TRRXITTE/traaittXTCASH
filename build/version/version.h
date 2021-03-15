@@ -3,7 +3,7 @@
 
 #define PROJECT_NAME "traaittCASH"
 #define PROJECT_SITE "https://www.traaittCASH.com"
-#define PROJECT_COPYRIGHT "Copyright 2020 - TODAY, TRRXITTE Inc."
+#define PROJECT_COPYRIGHT "Copyright 2020 - TODAY, TRRXITTE Int., incorporated"
 #define APP_VER_MAJOR 1
 #define APP_VER_MINOR 4
 #define APP_VER_REV 4

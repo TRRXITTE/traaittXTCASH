@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/miner.dir/miner/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

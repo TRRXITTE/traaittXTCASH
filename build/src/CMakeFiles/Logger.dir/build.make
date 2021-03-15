@@ -79,15 +79,15 @@ include src/CMakeFiles/Logger.dir/flags.make
 src/CMakeFiles/Logger.dir/logger/Logger.cpp.o: src/CMakeFiles/Logger.dir/flags.make
 src/CMakeFiles/Logger.dir/logger/Logger.cpp.o: ../src/logger/Logger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Logger.dir/logger/Logger.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logger.dir/logger/Logger.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Logger.dir/logger/Logger.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp
 
 src/CMakeFiles/Logger.dir/logger/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Logger.dir/logger/Logger.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp > CMakeFiles/Logger.dir/logger/Logger.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp > CMakeFiles/Logger.dir/logger/Logger.cpp.i
 
 src/CMakeFiles/Logger.dir/logger/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Logger.dir/logger/Logger.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp -o CMakeFiles/Logger.dir/logger/Logger.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/logger/Logger.cpp -o CMakeFiles/Logger.dir/logger/Logger.cpp.s
 
 # Object files for target Logger
 Logger_OBJECTS = \

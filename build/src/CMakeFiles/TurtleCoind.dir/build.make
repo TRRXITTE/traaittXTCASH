@@ -79,41 +79,41 @@ include src/CMakeFiles/TurtleCoind.dir/flags.make
 src/CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.o: src/CMakeFiles/TurtleCoind.dir/flags.make
 src/CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.o: ../src/daemon/Daemon.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp
 
 src/CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp > CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp > CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.i
 
 src/CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp -o CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/Daemon.cpp -o CMakeFiles/TurtleCoind.dir/daemon/Daemon.cpp.s
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.o: src/CMakeFiles/TurtleCoind.dir/flags.make
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.o: ../src/daemon/DaemonCommandsHandler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp > CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp > CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.i
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp -o CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonCommandsHandler.cpp -o CMakeFiles/TurtleCoind.dir/daemon/DaemonCommandsHandler.cpp.s
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.o: src/CMakeFiles/TurtleCoind.dir/flags.make
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.o: ../src/daemon/DaemonConfiguration.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp > CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp > CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.i
 
 src/CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp -o CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/daemon/DaemonConfiguration.cpp -o CMakeFiles/TurtleCoind.dir/daemon/DaemonConfiguration.cpp.s
 
 # Object files for target TurtleCoind
 TurtleCoind_OBJECTS = \

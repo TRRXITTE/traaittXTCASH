@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/blockchainexplorer/BlockchainExplorer.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorer.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/blockchainexplorer/BlockchainExplorerErrors.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/BlockchainExplorer.dir/blockchainexplorer/BlockchainExplorerErrors.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

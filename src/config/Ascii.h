@@ -13,14 +13,14 @@ const std::string nonwindowsAsciiArt = "\n                                      
 "CCCC U U RRR RRR EEE N N CCC Y Y|||2020 - TODAY||||||\n"
 "CC   U U RR  RR  E   NNN C    Y |||||||||||||||||||||\n"
 "CCCC UUU RRR RRR EEE N N CCC  Y |||||||||||||||||||||\n"
-"                                TRRXITTE INC. XTCASH \n"
+"                                TRRXITTE INT. XTCASH \n"
 "HTTPS://TRAAITTCASH.COM         |||||||||||||||||||||\n";
 
 const std::string windowsAsciiArt ="\n\n"
 "CCCC U U RRR RRR EEE N N CCC Y Y|||2020 - TODAY||||||\n"
 "CC   U U RR  RR  E   NNN C    Y |||||||||||||||||||||\n"
 "CCCC UUU RRR RRR EEE N N CCC  Y |||||||||||||||||||||\n"
-"                                TRRXITTE INC. XTCASH \n"
+"                                TRRXITTE INT. XTCASH \n"
 "HTTPS://TRAAITTCASH.COM         |||||||||||||||||||||\n";
 
 #ifdef _WIN32

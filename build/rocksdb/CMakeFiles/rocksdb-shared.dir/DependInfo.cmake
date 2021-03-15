@@ -235,7 +235,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc" "/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/rocksdb-shared.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc" "/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/rocksdb-shared.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

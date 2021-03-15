@@ -79,41 +79,41 @@ include src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o: ../src/walletapi/ApiDispatcher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp > CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp > CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ApiDispatcher.cpp -o CMakeFiles/WalletApi.dir/walletapi/ApiDispatcher.cpp.s
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o: ../src/walletapi/ParseArguments.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp > CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp > CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/ParseArguments.cpp -o CMakeFiles/WalletApi.dir/walletapi/ParseArguments.cpp.s
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o: src/CMakeFiles/WalletApi.dir/flags.make
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o: ../src/walletapi/WalletApi.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp > CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp > CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.i
 
 src/CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp -o CMakeFiles/WalletApi.dir/walletapi/WalletApi.cpp.s
 
 # Object files for target WalletApi
 WalletApi_OBJECTS = \

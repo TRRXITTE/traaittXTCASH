@@ -79,28 +79,28 @@ include src/CMakeFiles/SubWallets.dir/flags.make
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o: src/CMakeFiles/SubWallets.dir/flags.make
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o: ../src/subwallets/SubWallet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp
 
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp > CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp > CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.i
 
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp -o CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallet.cpp -o CMakeFiles/SubWallets.dir/subwallets/SubWallet.cpp.s
 
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o: src/CMakeFiles/SubWallets.dir/flags.make
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o: ../src/subwallets/SubWallets.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp
 
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp > CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp > CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.i
 
 src/CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp -o CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/subwallets/SubWallets.cpp -o CMakeFiles/SubWallets.dir/subwallets/SubWallets.cpp.s
 
 # Object files for target SubWallets
 SubWallets_OBJECTS = \

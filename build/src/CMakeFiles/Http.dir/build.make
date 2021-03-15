@@ -79,54 +79,54 @@ include src/CMakeFiles/Http.dir/flags.make
 src/CMakeFiles/Http.dir/http/HttpParser.cpp.o: src/CMakeFiles/Http.dir/flags.make
 src/CMakeFiles/Http.dir/http/HttpParser.cpp.o: ../src/http/HttpParser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Http.dir/http/HttpParser.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpParser.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpParser.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp
 
 src/CMakeFiles/Http.dir/http/HttpParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Http.dir/http/HttpParser.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp > CMakeFiles/Http.dir/http/HttpParser.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp > CMakeFiles/Http.dir/http/HttpParser.cpp.i
 
 src/CMakeFiles/Http.dir/http/HttpParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Http.dir/http/HttpParser.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp -o CMakeFiles/Http.dir/http/HttpParser.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParser.cpp -o CMakeFiles/Http.dir/http/HttpParser.cpp.s
 
 src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o: src/CMakeFiles/Http.dir/flags.make
 src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o: ../src/http/HttpParserErrorCodes.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp
 
 src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp > CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp > CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i
 
 src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp -o CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpParserErrorCodes.cpp -o CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s
 
 src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o: src/CMakeFiles/Http.dir/flags.make
 src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o: ../src/http/HttpRequest.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpRequest.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpRequest.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp
 
 src/CMakeFiles/Http.dir/http/HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Http.dir/http/HttpRequest.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp > CMakeFiles/Http.dir/http/HttpRequest.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp > CMakeFiles/Http.dir/http/HttpRequest.cpp.i
 
 src/CMakeFiles/Http.dir/http/HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Http.dir/http/HttpRequest.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp -o CMakeFiles/Http.dir/http/HttpRequest.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpRequest.cpp -o CMakeFiles/Http.dir/http/HttpRequest.cpp.s
 
 src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o: src/CMakeFiles/Http.dir/flags.make
 src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o: ../src/http/HttpResponse.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpResponse.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Http.dir/http/HttpResponse.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp
 
 src/CMakeFiles/Http.dir/http/HttpResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Http.dir/http/HttpResponse.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp > CMakeFiles/Http.dir/http/HttpResponse.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp > CMakeFiles/Http.dir/http/HttpResponse.cpp.i
 
 src/CMakeFiles/Http.dir/http/HttpResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Http.dir/http/HttpResponse.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp -o CMakeFiles/Http.dir/http/HttpResponse.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/http/HttpResponse.cpp -o CMakeFiles/Http.dir/http/HttpResponse.cpp.s
 
 # Object files for target Http
 Http_OBJECTS = \

@@ -79,15 +79,15 @@ include src/CMakeFiles/cryptotest.dir/flags.make
 src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o: src/CMakeFiles/cryptotest.dir/flags.make
 src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o: ../src/cryptotest/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cryptotest.dir/cryptotest/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp
 
 src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp > CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp > CMakeFiles/cryptotest.dir/cryptotest/main.cpp.i
 
 src/CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp -o CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/cryptotest/main.cpp -o CMakeFiles/cryptotest.dir/cryptotest/main.cpp.s
 
 # Object files for target cryptotest
 cryptotest_OBJECTS = \

@@ -1,22 +1,44 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
 Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
-clang version 8.0.1 (tags/RELEASE_801/final)
-Target: x86_64-apple-darwin20.2.0
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
 Thread model: posix
-InstalledDir: /usr/local/opt/llvm@8/bin
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 Performing C++ SOURCE FILE Test HAVE_SYNC_FILE_RANGE_WRITE failed with the following output:
 Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_84029/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_84029.dir/build.make CMakeFiles/cmTC_84029.dir/build
+Run Build Command(s):/usr/local/bin/gmake cmTC_ff641/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ff641.dir/build.make CMakeFiles/cmTC_ff641.dir/build
 gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_84029.dir/src.cxx.o
-/usr/local/opt/llvm@8/bin/clang++ -DHAVE_SYNC_FILE_RANGE_WRITE  -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_84029.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_ff641.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_SYNC_FILE_RANGE_WRITE  -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_ff641.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx
 /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx:5:34: error: use of undeclared identifier 'SYNC_FILE_RANGE_WRITE'
     sync_file_range(fd, 0, 1024, SYNC_FILE_RANGE_WRITE);
                                  ^
 1 error generated.
-gmake[1]: *** [CMakeFiles/cmTC_84029.dir/build.make:85: CMakeFiles/cmTC_84029.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_ff641.dir/build.make:85: CMakeFiles/cmTC_ff641.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_84029/fast] Error 2
+gmake: *** [Makefile:140: cmTC_ff641/fast] Error 2
 
 
 Source file was:
@@ -30,17 +52,17 @@ Source file was:
 Performing C++ SOURCE FILE Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP failed with the following output:
 Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_a9284/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a9284.dir/build.make CMakeFiles/cmTC_a9284.dir/build
+Run Build Command(s):/usr/local/bin/gmake cmTC_09e5a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_09e5a.dir/build.make CMakeFiles/cmTC_09e5a.dir/build
 gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a9284.dir/src.cxx.o
-/usr/local/opt/llvm@8/bin/clang++ -DHAVE_PTHREAD_MUTEX_ADAPTIVE_NP  -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_a9284.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_09e5a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_PTHREAD_MUTEX_ADAPTIVE_NP  -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_09e5a.dir/src.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx
 /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/src.cxx:4:12: error: use of undeclared identifier 'PTHREAD_MUTEX_ADAPTIVE_NP'
     (void) PTHREAD_MUTEX_ADAPTIVE_NP;
            ^
 1 error generated.
-gmake[1]: *** [CMakeFiles/cmTC_a9284.dir/build.make:85: CMakeFiles/cmTC_a9284.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_09e5a.dir/build.make:85: CMakeFiles/cmTC_09e5a.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_a9284/fast] Error 2
+gmake: *** [Makefile:140: cmTC_09e5a/fast] Error 2
 
 
 Source file was:
@@ -53,17 +75,17 @@ Source file was:
 Determining if the malloc_usable_size exist failed with the following output:
 Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_6540b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_6540b.dir/build.make CMakeFiles/cmTC_6540b.dir/build
+Run Build Command(s):/usr/local/bin/gmake cmTC_67a49/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_67a49.dir/build.make CMakeFiles/cmTC_67a49.dir/build
 gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6540b.dir/CheckSymbolExists.cxx.o
-/usr/local/opt/llvm@8/bin/clang++   -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_6540b.dir/CheckSymbolExists.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_67a49.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_67a49.dir/CheckSymbolExists.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: 'malloc.h' file not found
 #include <malloc.h>
          ^~~~~~~~~~
 1 error generated.
-gmake[1]: *** [CMakeFiles/cmTC_6540b.dir/build.make:85: CMakeFiles/cmTC_6540b.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_67a49.dir/build.make:85: CMakeFiles/cmTC_67a49.dir/CheckSymbolExists.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_6540b/fast] Error 2
+gmake: *** [Makefile:140: cmTC_67a49/fast] Error 2
 
 
 File /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -83,17 +105,17 @@ int main(int argc, char** argv)
 Determining if the sched_getcpu exist failed with the following output:
 Change Dir: /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_5b3d2/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5b3d2.dir/build.make CMakeFiles/cmTC_5b3d2.dir/build
+Run Build Command(s):/usr/local/bin/gmake cmTC_e58d6/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e58d6.dir/build.make CMakeFiles/cmTC_e58d6.dir/build
 gmake[1]: Entering directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5b3d2.dir/CheckSymbolExists.cxx.o
-/usr/local/opt/llvm@8/bin/clang++   -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_5b3d2.dir/CheckSymbolExists.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_e58d6.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -fno-omit-frame-pointer -momit-leaf-frame-pointer  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_e58d6.dir/CheckSymbolExists.cxx.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'sched_getcpu'
   return ((int*)(&sched_getcpu))[argc];
                   ^
 1 error generated.
-gmake[1]: *** [CMakeFiles/cmTC_5b3d2.dir/build.make:85: CMakeFiles/cmTC_5b3d2.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_e58d6.dir/build.make:85: CMakeFiles/cmTC_e58d6.dir/CheckSymbolExists.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_5b3d2/fast] Error 2
+gmake: *** [Makefile:140: cmTC_e58d6/fast] Error 2
 
 
 File /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:

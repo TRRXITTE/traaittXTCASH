@@ -79,54 +79,54 @@ include src/CMakeFiles/Rpc.dir/flags.make
 src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o: src/CMakeFiles/Rpc.dir/flags.make
 src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o: ../src/rpc/HttpClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp
 
 src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp > CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp > CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i
 
 src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp -o CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpClient.cpp -o CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s
 
 src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o: src/CMakeFiles/Rpc.dir/flags.make
 src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o: ../src/rpc/HttpServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp
 
 src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp > CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp > CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i
 
 src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp -o CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/HttpServer.cpp -o CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s
 
 src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o: src/CMakeFiles/Rpc.dir/flags.make
 src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o: ../src/rpc/JsonRpc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp
 
 src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp > CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp > CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i
 
 src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp -o CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp -o CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s
 
 src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o: src/CMakeFiles/Rpc.dir/flags.make
 src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o: ../src/rpc/RpcServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp
 
 src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp > CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp > CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i
 
 src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp -o CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp -o CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s
 
 # Object files for target Rpc
 Rpc_OBJECTS = \

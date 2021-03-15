@@ -30,7 +30,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/common/Util.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Common.dir/common/Util.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/common/VectorOutputStream.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Common.dir/common/VectorOutputStream.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

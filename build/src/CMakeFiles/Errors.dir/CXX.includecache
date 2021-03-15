@@ -1376,12 +1376,6 @@ serialization/ISerializer.h
 wallet/WalletGreen.h
 -
 
-/Users/traaitt/Documents/GitHub/traaittCASH/src/errors/Errors.cpp
-errors/Errors.h
--
-ostream
--
-
 /Users/traaitt/Documents/GitHub/traaittCASH/src/errors/ValidateParameters.cpp
 errors/ValidateParameters.h
 -

@@ -1004,10 +1004,6 @@ string
 unordered_map
 -
 
-../src/common/SignalHandler.h
-functional
--
-
 ../src/common/StringTools.h
 cstdint
 -
@@ -1502,26 +1498,6 @@ config/WalletConfig.h
 cxxopts.hpp
 -
 thread
--
-
-/Users/traaitt/Documents/GitHub/traaittCASH/src/walletapi/WalletApi.cpp
-atomic
--
-chrono
--
-common/SignalHandler.h
--
-config/CliHeader.h
--
-iostream
--
-logger/Logger.h
--
-thread
--
-walletapi/ApiDispatcher.h
--
-walletapi/ParseArguments.h
 -
 
 /usr/local/include/boost/assert.hpp

@@ -16,7 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/lz4/lz4hc.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/lz4/CMakeFiles/lz4.dir/lz4hc.c.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/lz4/xxhash.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/lz4/CMakeFiles/lz4.dir/xxhash.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C

@@ -79,15 +79,15 @@ include CMakeFiles/build_version.dir/flags.make
 CMakeFiles/build_version.dir/build_version.cc.o: CMakeFiles/build_version.dir/flags.make
 CMakeFiles/build_version.dir/build_version.cc.o: build_version.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/build_version.dir/build_version.cc.o"
-	/usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/build_version.dir/build_version.cc.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/build_version.dir/build_version.cc.o -c /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc
 
 CMakeFiles/build_version.dir/build_version.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/build_version.dir/build_version.cc.i"
-	/usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc > CMakeFiles/build_version.dir/build_version.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc > CMakeFiles/build_version.dir/build_version.cc.i
 
 CMakeFiles/build_version.dir/build_version.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build_version.dir/build_version.cc.s"
-	/usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc -o CMakeFiles/build_version.dir/build_version.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/build/rocksdb/build_version.cc -o CMakeFiles/build_version.dir/build_version.cc.s
 
 build_version: CMakeFiles/build_version.dir/build_version.cc.o
 build_version: CMakeFiles/build_version.dir/build.make

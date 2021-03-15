@@ -79,171 +79,171 @@ include src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o: ../src/zedwallet/AddressBook.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp > CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp > CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp -o CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/AddressBook.cpp -o CMakeFiles/zedwallet.dir/zedwallet/AddressBook.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o: ../src/zedwallet/CommandDispatcher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp > CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp > CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp -o CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandDispatcher.cpp -o CMakeFiles/zedwallet.dir/zedwallet/CommandDispatcher.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o: ../src/zedwallet/CommandImplementations.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp > CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp > CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp -o CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/CommandImplementations.cpp -o CMakeFiles/zedwallet.dir/zedwallet/CommandImplementations.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o: ../src/zedwallet/Commands.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp > CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp > CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Commands.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Commands.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o: ../src/zedwallet/Fusion.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp > CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp > CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Fusion.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Fusion.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o: ../src/zedwallet/GetInput.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp > CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp > CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp -o CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/GetInput.cpp -o CMakeFiles/zedwallet.dir/zedwallet/GetInput.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o: ../src/zedwallet/Menu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp > CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp > CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Menu.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Menu.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o: ../src/zedwallet/Open.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp > CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp > CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Open.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Open.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o: ../src/zedwallet/ParseArguments.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp > CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp > CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp -o CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ParseArguments.cpp -o CMakeFiles/zedwallet.dir/zedwallet/ParseArguments.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o: ../src/zedwallet/Sync.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp > CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp > CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Sync.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Sync.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o: ../src/zedwallet/Tools.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp > CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp > CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Tools.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Tools.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o: ../src/zedwallet/Transfer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp > CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp > CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/Transfer.cpp -o CMakeFiles/zedwallet.dir/zedwallet/Transfer.cpp.s
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o: src/CMakeFiles/zedwallet.dir/flags.make
 src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o: ../src/zedwallet/ZedWallet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp > CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp > CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.i
 
 src/CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp -o CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/zedwallet/ZedWallet.cpp -o CMakeFiles/zedwallet.dir/zedwallet/ZedWallet.cpp.s
 
 # Object files for target zedwallet
 zedwallet_OBJECTS = \

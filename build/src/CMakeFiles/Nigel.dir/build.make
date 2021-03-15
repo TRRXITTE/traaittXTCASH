@@ -79,15 +79,15 @@ include src/CMakeFiles/Nigel.dir/flags.make
 src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o: src/CMakeFiles/Nigel.dir/flags.make
 src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o: ../src/nigel/Nigel.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nigel.dir/nigel/Nigel.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp
 
 src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp > CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp > CMakeFiles/Nigel.dir/nigel/Nigel.cpp.i
 
 src/CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp -o CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/nigel/Nigel.cpp -o CMakeFiles/Nigel.dir/nigel/Nigel.cpp.s
 
 # Object files for target Nigel
 Nigel_OBJECTS = \

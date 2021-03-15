@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/transfers/TransfersSubscription.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/transfers/TransfersSynchronizer.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

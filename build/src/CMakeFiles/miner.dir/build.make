@@ -79,80 +79,80 @@ include src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o: ../src/miner/BlockUtilities.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp
 
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp > CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp > CMakeFiles/miner.dir/miner/BlockUtilities.cpp.i
 
 src/CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockUtilities.cpp -o CMakeFiles/miner.dir/miner/BlockUtilities.cpp.s
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o: ../src/miner/BlockchainMonitor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp > CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp > CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.i
 
 src/CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/BlockchainMonitor.cpp -o CMakeFiles/miner.dir/miner/BlockchainMonitor.cpp.s
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/Miner.cpp.o: ../src/miner/Miner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/miner.dir/miner/Miner.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/Miner.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/Miner.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/Miner.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp > CMakeFiles/miner.dir/miner/Miner.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp > CMakeFiles/miner.dir/miner/Miner.cpp.i
 
 src/CMakeFiles/miner.dir/miner/Miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/Miner.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp -o CMakeFiles/miner.dir/miner/Miner.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/Miner.cpp -o CMakeFiles/miner.dir/miner/Miner.cpp.s
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o: ../src/miner/MinerManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/miner.dir/miner/MinerManager.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MinerManager.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MinerManager.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/MinerManager.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp > CMakeFiles/miner.dir/miner/MinerManager.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp > CMakeFiles/miner.dir/miner/MinerManager.cpp.i
 
 src/CMakeFiles/miner.dir/miner/MinerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/MinerManager.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp -o CMakeFiles/miner.dir/miner/MinerManager.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MinerManager.cpp -o CMakeFiles/miner.dir/miner/MinerManager.cpp.s
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o: ../src/miner/MiningConfig.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/MiningConfig.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp > CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp > CMakeFiles/miner.dir/miner/MiningConfig.cpp.i
 
 src/CMakeFiles/miner.dir/miner/MiningConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/MiningConfig.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/MiningConfig.cpp -o CMakeFiles/miner.dir/miner/MiningConfig.cpp.s
 
 src/CMakeFiles/miner.dir/miner/main.cpp.o: src/CMakeFiles/miner.dir/flags.make
 src/CMakeFiles/miner.dir/miner/main.cpp.o: ../src/miner/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/miner.dir/miner/main.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/miner.dir/miner/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp
 
 src/CMakeFiles/miner.dir/miner/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miner.dir/miner/main.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp > CMakeFiles/miner.dir/miner/main.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp > CMakeFiles/miner.dir/miner/main.cpp.i
 
 src/CMakeFiles/miner.dir/miner/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miner.dir/miner/main.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp -o CMakeFiles/miner.dir/miner/main.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/miner/main.cpp -o CMakeFiles/miner.dir/miner/main.cpp.s
 
 # Object files for target miner
 miner_OBJECTS = \

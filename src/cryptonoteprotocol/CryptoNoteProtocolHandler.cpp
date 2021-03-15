@@ -337,7 +337,7 @@ namespace CryptoNote
 
             std::stringstream ss;
 
-            ss << "Your " << CRYPTONOTE_NAME << " node is syncing with the network ";
+            ss << "Your " << CRYPTONOTE_NAME << " is syncing with the network ";
 
             /* We're behind the remote node */
             if (diff >= 0)
@@ -974,7 +974,7 @@ namespace CryptoNote
 
             context.m_state = CryptoNoteConnectionContext::state_normal;
             logger(Logging::INFO, Logging::BRIGHT_GREEN)
-                << context << "Successfully synchronized with the " << CryptoNote::CRYPTONOTE_NAME << " Network.";
+                << context << "Successfully synchronized with the " << CryptoNote::CRYPTONOTE_NAME << " network.";
             on_connection_synchronized();
         }
         return true;
@@ -987,21 +987,21 @@ namespace CryptoNote
         {
             logger(Logging::INFO) << ENDL;
             logger(INFO, BRIGHT_MAGENTA) << "===[ " + std::string(CryptoNote::CRYPTONOTE_NAME)
-                                                + " Tip! ]============================="
+                                                + " Information! ]============================="
                                          << ENDL;
-            logger(INFO, WHITE) << " Always exit " + WalletConfig::daemonName + " and " + WalletConfig::walletName
-                                       + " with the \"exit\" command to preserve your chain and wallet data."
+            logger(INFO, BRIGHT_RED) << " Always exit " + WalletConfig::daemonName + " and " + WalletConfig::walletName
+                                       + " with the \"exit\" command to preserve your transaction and wallet data."
                                 << ENDL;
-            logger(INFO, WHITE) << " Use the \"help\" command to see a list of available commands." << ENDL;
-            logger(INFO, WHITE) << " Use the \"backup\" command in " + WalletConfig::walletName
+            logger(INFO, YELLOW) << " Use the \"help\" command to see a list of available commands." << ENDL;
+            logger(INFO, BRIGHT_GREEN) << " Use the \"backup\" command in " + WalletConfig::walletName
                                        + " to display your keys/seed for restoring a corrupted wallet."
                                 << ENDL;
-            logger(INFO, WHITE) << " If you need more assistance, you can contact us for support at "
+            logger(INFO, BRIGHT_CYAN) << " If you need more assistance, you can contact us for support at "
                                        + WalletConfig::contactLink
                                 << ENDL;
-            logger(INFO, BRIGHT_MAGENTA) << "===================================================" << ENDL << ENDL;
+            logger(INFO, BRIGHT_MAGENTA) << "===============================================================" << ENDL << ENDL;
 
-            logger(INFO, BRIGHT_CYAN) << asciiArt << ENDL;
+            logger(INFO, BRIGHT_MAGENTA) << asciiArt << ENDL;
 
             m_observerManager.notify(&ICryptoNoteProtocolObserver::blockchainSynchronized, m_core.getTopBlockIndex());
         }

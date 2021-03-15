@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/p2p/PeerListManager.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/p2p/Peerlist.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/P2P.dir/p2p/Peerlist.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

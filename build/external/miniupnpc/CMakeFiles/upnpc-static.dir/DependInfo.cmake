@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/miniupnpc/upnperrors.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/external/miniupnpc/upnpreplyparse.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C

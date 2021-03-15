@@ -79,228 +79,228 @@ include src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/Context.c.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/Context.c.o: ../src/platform/osx/system/Context.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/System.dir/platform/osx/system/Context.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Context.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Context.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c
 
 src/CMakeFiles/System.dir/platform/osx/system/Context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/System.dir/platform/osx/system/Context.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c > CMakeFiles/System.dir/platform/osx/system/Context.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c > CMakeFiles/System.dir/platform/osx/system/Context.c.i
 
 src/CMakeFiles/System.dir/platform/osx/system/Context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/System.dir/platform/osx/system/Context.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c -o CMakeFiles/System.dir/platform/osx/system/Context.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c -o CMakeFiles/System.dir/platform/osx/system/Context.c.s
 
 src/CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.o: ../src/platform/osx/system/Dispatcher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp > CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp > CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp -o CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Dispatcher.cpp -o CMakeFiles/System.dir/platform/osx/system/Dispatcher.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.o: ../src/platform/osx/system/ErrorMessage.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp > CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp > CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp -o CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/ErrorMessage.cpp -o CMakeFiles/System.dir/platform/osx/system/ErrorMessage.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.o: ../src/platform/osx/system/Ipv4Resolver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp > CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp > CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp -o CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Ipv4Resolver.cpp -o CMakeFiles/System.dir/platform/osx/system/Ipv4Resolver.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.o: ../src/platform/osx/system/TcpConnection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp > CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp > CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnection.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpConnection.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.o: ../src/platform/osx/system/TcpConnector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp > CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp > CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpConnector.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpConnector.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.o: ../src/platform/osx/system/TcpListener.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp > CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp > CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/TcpListener.cpp -o CMakeFiles/System.dir/platform/osx/system/TcpListener.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/Timer.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/Timer.cpp.o: ../src/platform/osx/system/Timer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/System.dir/platform/osx/system/Timer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Timer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/Timer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp
 
 src/CMakeFiles/System.dir/platform/osx/system/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/osx/system/Timer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp > CMakeFiles/System.dir/platform/osx/system/Timer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp > CMakeFiles/System.dir/platform/osx/system/Timer.cpp.i
 
 src/CMakeFiles/System.dir/platform/osx/system/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/osx/system/Timer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp -o CMakeFiles/System.dir/platform/osx/system/Timer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Timer.cpp -o CMakeFiles/System.dir/platform/osx/system/Timer.cpp.s
 
 src/CMakeFiles/System.dir/platform/osx/system/asm.s.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/osx/system/asm.s.o: ../src/platform/osx/system/asm.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object src/CMakeFiles/System.dir/platform/osx/system/asm.s.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/asm.s.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/asm.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/System.dir/platform/osx/system/asm.s.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/asm.s
 
 src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o: ../src/platform/posix/system/MemoryMappedFile.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp
 
 src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp > CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp > CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.i
 
 src/CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp -o CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/platform/posix/system/MemoryMappedFile.cpp -o CMakeFiles/System.dir/platform/posix/system/MemoryMappedFile.cpp.s
 
 src/CMakeFiles/System.dir/system/ContextGroup.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/ContextGroup.cpp.o: ../src/system/ContextGroup.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/System.dir/system/ContextGroup.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/ContextGroup.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/ContextGroup.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp
 
 src/CMakeFiles/System.dir/system/ContextGroup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/ContextGroup.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp > CMakeFiles/System.dir/system/ContextGroup.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp > CMakeFiles/System.dir/system/ContextGroup.cpp.i
 
 src/CMakeFiles/System.dir/system/ContextGroup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/ContextGroup.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp -o CMakeFiles/System.dir/system/ContextGroup.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroup.cpp -o CMakeFiles/System.dir/system/ContextGroup.cpp.s
 
 src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o: ../src/system/ContextGroupTimeout.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp
 
 src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp > CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp > CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i
 
 src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp -o CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/ContextGroupTimeout.cpp -o CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s
 
 src/CMakeFiles/System.dir/system/Event.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/Event.cpp.o: ../src/system/Event.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/System.dir/system/Event.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/Event.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/Event.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp
 
 src/CMakeFiles/System.dir/system/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/Event.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp > CMakeFiles/System.dir/system/Event.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp > CMakeFiles/System.dir/system/Event.cpp.i
 
 src/CMakeFiles/System.dir/system/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/Event.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp -o CMakeFiles/System.dir/system/Event.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Event.cpp -o CMakeFiles/System.dir/system/Event.cpp.s
 
 src/CMakeFiles/System.dir/system/EventLock.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/EventLock.cpp.o: ../src/system/EventLock.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/System.dir/system/EventLock.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/EventLock.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/EventLock.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp
 
 src/CMakeFiles/System.dir/system/EventLock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/EventLock.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp > CMakeFiles/System.dir/system/EventLock.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp > CMakeFiles/System.dir/system/EventLock.cpp.i
 
 src/CMakeFiles/System.dir/system/EventLock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/EventLock.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp -o CMakeFiles/System.dir/system/EventLock.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/EventLock.cpp -o CMakeFiles/System.dir/system/EventLock.cpp.s
 
 src/CMakeFiles/System.dir/system/InterruptedException.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/InterruptedException.cpp.o: ../src/system/InterruptedException.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/System.dir/system/InterruptedException.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/InterruptedException.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/InterruptedException.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp
 
 src/CMakeFiles/System.dir/system/InterruptedException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/InterruptedException.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp > CMakeFiles/System.dir/system/InterruptedException.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp > CMakeFiles/System.dir/system/InterruptedException.cpp.i
 
 src/CMakeFiles/System.dir/system/InterruptedException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/InterruptedException.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp -o CMakeFiles/System.dir/system/InterruptedException.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/InterruptedException.cpp -o CMakeFiles/System.dir/system/InterruptedException.cpp.s
 
 src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o: ../src/system/Ipv4Address.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/Ipv4Address.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/Ipv4Address.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp
 
 src/CMakeFiles/System.dir/system/Ipv4Address.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/Ipv4Address.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp > CMakeFiles/System.dir/system/Ipv4Address.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp > CMakeFiles/System.dir/system/Ipv4Address.cpp.i
 
 src/CMakeFiles/System.dir/system/Ipv4Address.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/Ipv4Address.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp -o CMakeFiles/System.dir/system/Ipv4Address.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/Ipv4Address.cpp -o CMakeFiles/System.dir/system/Ipv4Address.cpp.s
 
 src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o: ../src/system/RemoteEventLock.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/RemoteEventLock.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/RemoteEventLock.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp
 
 src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/RemoteEventLock.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp > CMakeFiles/System.dir/system/RemoteEventLock.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp > CMakeFiles/System.dir/system/RemoteEventLock.cpp.i
 
 src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/RemoteEventLock.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp -o CMakeFiles/System.dir/system/RemoteEventLock.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp -o CMakeFiles/System.dir/system/RemoteEventLock.cpp.s
 
 src/CMakeFiles/System.dir/system/TcpStream.cpp.o: src/CMakeFiles/System.dir/flags.make
 src/CMakeFiles/System.dir/system/TcpStream.cpp.o: ../src/system/TcpStream.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/System.dir/system/TcpStream.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/TcpStream.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/System.dir/system/TcpStream.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp
 
 src/CMakeFiles/System.dir/system/TcpStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.dir/system/TcpStream.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp > CMakeFiles/System.dir/system/TcpStream.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp > CMakeFiles/System.dir/system/TcpStream.cpp.i
 
 src/CMakeFiles/System.dir/system/TcpStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.dir/system/TcpStream.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp -o CMakeFiles/System.dir/system/TcpStream.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp -o CMakeFiles/System.dir/system/TcpStream.cpp.s
 
 # Object files for target System
 System_OBJECTS = \

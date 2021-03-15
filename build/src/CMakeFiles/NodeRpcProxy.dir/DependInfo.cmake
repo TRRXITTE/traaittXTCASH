@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeErrors.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/noderpcproxy/NodeRpcProxy.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

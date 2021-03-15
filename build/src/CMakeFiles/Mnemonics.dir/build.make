@@ -79,15 +79,15 @@ include src/CMakeFiles/Mnemonics.dir/flags.make
 src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o: src/CMakeFiles/Mnemonics.dir/flags.make
 src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o: ../src/mnemonics/Mnemonics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp
 
 src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp > CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp > CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.i
 
 src/CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp -o CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/mnemonics/Mnemonics.cpp -o CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.s
 
 # Object files for target Mnemonics
 Mnemonics_OBJECTS = \

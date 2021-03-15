@@ -626,16 +626,6 @@ src/CMakeFiles/pool.dir/clean:
 # Target rules for target src/CMakeFiles/zedwallet.dir
 
 # All Build rule for target.
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/zedwallet.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/zedwallet.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/zedwallet.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
@@ -647,6 +637,16 @@ src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/zedwallet.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/zedwallet.dir/build.make src/CMakeFiles/zedwallet.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=88,89,90 "Built target zedwallet"
@@ -673,12 +673,6 @@ src/CMakeFiles/zedwallet.dir/clean:
 # Target rules for target src/CMakeFiles/TurtleCoind.dir
 
 # All Build rule for target.
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: external/CMakeFiles/rocksdb.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
@@ -690,6 +684,12 @@ src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/CryptoNoteCore.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/P2P.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=37 "Built target TurtleCoind"
@@ -716,17 +716,6 @@ src/CMakeFiles/TurtleCoind.dir/clean:
 # Target rules for target src/CMakeFiles/WalletService.dir
 
 # All Build rule for target.
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Common.dir/all
-src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/JsonRpcServer.dir/all
 src/CMakeFiles/WalletService.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/WalletService.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/WalletService.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
@@ -738,6 +727,17 @@ src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/Common.dir/all
+src/CMakeFiles/WalletService.dir/all: src/CMakeFiles/JsonRpcServer.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletService.dir/build.make src/CMakeFiles/WalletService.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=43,44 "Built target WalletService"
@@ -764,15 +764,15 @@ src/CMakeFiles/WalletService.dir/clean:
 # Target rules for target src/CMakeFiles/miner.dir
 
 # All Build rule for target.
-src/CMakeFiles/miner.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/miner.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/miner.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/miner.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/miner.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/miner.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/miner.dir/all: src/CMakeFiles/Utilities.dir/all
 src/CMakeFiles/miner.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/miner.dir/all: src/CMakeFiles/System.dir/all
+src/CMakeFiles/miner.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/miner.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/miner.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/miner.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/miner.dir/build.make src/CMakeFiles/miner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=84,85 "Built target miner"
@@ -880,10 +880,10 @@ src/CMakeFiles/CryptoNoteCore.dir/clean:
 # Target rules for target src/CMakeFiles/cryptotest.dir
 
 # All Build rule for target.
-src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/cryptotest.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/cryptotest.dir/all: external/argon2/CMakeFiles/argon2.dir/all
+src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/cryptotest.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/cryptotest.dir/build.make src/CMakeFiles/cryptotest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num= "Built target cryptotest"
@@ -910,9 +910,9 @@ src/CMakeFiles/cryptotest.dir/clean:
 # Target rules for target src/CMakeFiles/Serialization.dir
 
 # All Build rule for target.
+src/CMakeFiles/Serialization.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/Serialization.dir/all: src/CMakeFiles/Crypto.dir/all
 src/CMakeFiles/Serialization.dir/all: src/CMakeFiles/Common.dir/all
-src/CMakeFiles/Serialization.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=29,30 "Built target Serialization"
@@ -966,12 +966,12 @@ src/CMakeFiles/System.dir/clean:
 # Target rules for target src/CMakeFiles/P2P.dir
 
 # All Build rule for target.
-src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/P2P.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/P2P.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/P2P.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Serialization.dir/all
+src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/P2P.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=25,26,27 "Built target P2P"
@@ -998,12 +998,6 @@ src/CMakeFiles/P2P.dir/clean:
 # Target rules for target src/CMakeFiles/NodeRpcProxy.dir
 
 # All Build rule for target.
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Utilities.dir/all
@@ -1011,6 +1005,12 @@ src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/CryptoNoteCore.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/P2P.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/NodeRpcProxy.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num= "Built target NodeRpcProxy"
@@ -1172,16 +1172,6 @@ src/CMakeFiles/Logging.dir/clean:
 # Target rules for target src/CMakeFiles/WalletApi.dir
 
 # All Build rule for target.
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/WalletApi.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/WalletApi.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/WalletApi.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
@@ -1193,6 +1183,16 @@ src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/WalletApi.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletApi.dir/build.make src/CMakeFiles/WalletApi.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=41 "Built target WalletApi"
@@ -1246,12 +1246,12 @@ src/CMakeFiles/Crypto.dir/clean:
 # Target rules for target src/CMakeFiles/Nigel.dir
 
 # All Build rule for target.
+src/CMakeFiles/Nigel.dir/all: external/argon2/CMakeFiles/argon2.dir/all
+src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Utilities.dir/all
 src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Logger.dir/all
 src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Crypto.dir/all
 src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/SubWallets.dir/all
 src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Common.dir/all
-src/CMakeFiles/Nigel.dir/all: external/argon2/CMakeFiles/argon2.dir/all
-src/CMakeFiles/Nigel.dir/all: src/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Nigel.dir/build.make src/CMakeFiles/Nigel.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=24 "Built target Nigel"
@@ -1278,12 +1278,6 @@ src/CMakeFiles/Nigel.dir/clean:
 # Target rules for target src/CMakeFiles/Transfers.dir
 
 # All Build rule for target.
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/Transfers.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/Transfers.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Utilities.dir/all
@@ -1291,6 +1285,12 @@ src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/CryptoNoteCore.dir/all
 src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/P2P.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/Transfers.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=36 "Built target Transfers"
@@ -1317,16 +1317,6 @@ src/CMakeFiles/Transfers.dir/clean:
 # Target rules for target src/CMakeFiles/WalletUpgrader.dir
 
 # All Build rule for target.
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
@@ -1338,6 +1328,16 @@ src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/WalletUpgrader.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletUpgrader.dir/build.make src/CMakeFiles/WalletUpgrader.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=45 "Built target WalletUpgrader"
@@ -1419,12 +1419,6 @@ src/CMakeFiles/Config.dir/clean:
 # Target rules for target src/CMakeFiles/Rpc.dir
 
 # All Build rule for target.
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/Rpc.dir/all: CMakeFiles/version.dir/all
 src/CMakeFiles/Rpc.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/Rpc.dir/all: external/argon2/CMakeFiles/argon2.dir/all
@@ -1432,6 +1426,12 @@ src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Utilities.dir/all
 src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/P2P.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/Rpc.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=28 "Built target Rpc"
@@ -1458,11 +1458,11 @@ src/CMakeFiles/Rpc.dir/clean:
 # Target rules for target src/CMakeFiles/Errors.dir
 
 # All Build rule for target.
+src/CMakeFiles/Errors.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 src/CMakeFiles/Errors.dir/all: src/CMakeFiles/Logger.dir/all
 src/CMakeFiles/Errors.dir/all: src/CMakeFiles/Crypto.dir/all
 src/CMakeFiles/Errors.dir/all: src/CMakeFiles/SubWallets.dir/all
 src/CMakeFiles/Errors.dir/all: src/CMakeFiles/Common.dir/all
-src/CMakeFiles/Errors.dir/all: external/argon2/CMakeFiles/argon2.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Errors.dir/build.make src/CMakeFiles/Errors.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=19 "Built target Errors"
@@ -1489,16 +1489,6 @@ src/CMakeFiles/Errors.dir/clean:
 # Target rules for target src/CMakeFiles/WalletBackend.dir
 
 # All Build rule for target.
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/WalletBackend.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/WalletBackend.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
 src/CMakeFiles/WalletBackend.dir/all: external/argon2/CMakeFiles/argon2.dir/all
@@ -1508,6 +1498,16 @@ src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/WalletBackend.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/WalletBackend.dir/build.make src/CMakeFiles/WalletBackend.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=42 "Built target WalletBackend"
@@ -1534,16 +1534,6 @@ src/CMakeFiles/WalletBackend.dir/clean:
 # Target rules for target src/CMakeFiles/zedwallet++.dir
 
 # All Build rule for target.
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Mnemonics.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Logger.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Nigel.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Transfers.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/SubWallets.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Config.dir/all
-src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Common.dir/all
 src/CMakeFiles/zedwallet++.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/zedwallet++.dir/all: external/cryptopp/CMakeFiles/cryptopp-static.dir/all
 src/CMakeFiles/zedwallet++.dir/all: external/argon2/CMakeFiles/argon2.dir/all
@@ -1554,6 +1544,16 @@ src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Serialization.dir/all
 src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/System.dir/all
 src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/P2P.dir/all
 src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/NodeRpcProxy.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Mnemonics.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Logger.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Nigel.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Transfers.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/SubWallets.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Config.dir/all
+src/CMakeFiles/zedwallet++.dir/all: src/CMakeFiles/Common.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/zedwallet++.dir/build.make src/CMakeFiles/zedwallet++.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=91,92,93 "Built target zedwallet++"

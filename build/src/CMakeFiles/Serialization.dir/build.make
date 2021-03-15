@@ -79,145 +79,145 @@ include src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o: ../src/serialization/BinaryInputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o: ../src/serialization/BinaryOutputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BinaryOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o: ../src/serialization/BlockchainExplorerDataSerialization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp > CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp > CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp -o CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/BlockchainExplorerDataSerialization.cpp -o CMakeFiles/Serialization.dir/serialization/BlockchainExplorerDataSerialization.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o: ../src/serialization/CryptoNoteSerialization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp > CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp > CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp -o CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/CryptoNoteSerialization.cpp -o CMakeFiles/Serialization.dir/serialization/CryptoNoteSerialization.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o: ../src/serialization/JsonInputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o: ../src/serialization/JsonInputValueSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonInputValueSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o: ../src/serialization/JsonOutputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/JsonOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o: ../src/serialization/KVBinaryInputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryInputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o: ../src/serialization/KVBinaryOutputStreamSerializer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp > CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/KVBinaryOutputStreamSerializer.cpp -o CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o: ../src/serialization/MemoryStream.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp > CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp > CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp -o CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/MemoryStream.cpp -o CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s
 
 src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o: src/CMakeFiles/Serialization.dir/flags.make
 src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o: ../src/serialization/SerializationOverloads.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp
 
 src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp > CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp > CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i
 
 src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp -o CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/serialization/SerializationOverloads.cpp -o CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s
 
 # Object files for target Serialization
 Serialization_OBJECTS = \

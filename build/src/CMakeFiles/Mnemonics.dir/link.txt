@@ -1,2 +1,2 @@
-/usr/bin/ar qc libMnemonics.a CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o
-/usr/bin/ranlib libMnemonics.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libMnemonics.a CMakeFiles/Mnemonics.dir/mnemonics/Mnemonics.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libMnemonics.a

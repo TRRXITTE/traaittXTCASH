@@ -14,7 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

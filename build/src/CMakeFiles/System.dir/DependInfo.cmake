@@ -44,7 +44,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/platform/osx/system/Context.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/System.dir/platform/osx/system/Context.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
@@ -95,7 +95,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/system/RemoteEventLock.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/system/TcpStream.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/System.dir/system/TcpStream.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

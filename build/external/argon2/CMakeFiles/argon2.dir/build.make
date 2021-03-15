@@ -79,171 +79,171 @@ include external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o: ../external/argon2/lib/argon2.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/argon2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/argon2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/argon2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/argon2.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c > CMakeFiles/argon2.dir/lib/argon2.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c > CMakeFiles/argon2.dir/lib/argon2.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/argon2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/argon2.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c -o CMakeFiles/argon2.dir/lib/argon2.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/argon2.c -o CMakeFiles/argon2.dir/lib/argon2.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/core.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/core.c.o: ../external/argon2/lib/core.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/core.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/core.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/core.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/core.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c > CMakeFiles/argon2.dir/lib/core.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c > CMakeFiles/argon2.dir/lib/core.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/core.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c -o CMakeFiles/argon2.dir/lib/core.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/core.c -o CMakeFiles/argon2.dir/lib/core.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o: ../external/argon2/lib/encoding.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/encoding.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/encoding.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/encoding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/encoding.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c > CMakeFiles/argon2.dir/lib/encoding.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c > CMakeFiles/argon2.dir/lib/encoding.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/encoding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/encoding.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c -o CMakeFiles/argon2.dir/lib/encoding.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/encoding.c -o CMakeFiles/argon2.dir/lib/encoding.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o: ../external/argon2/lib/genkat.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/genkat.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/genkat.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/genkat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/genkat.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c > CMakeFiles/argon2.dir/lib/genkat.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c > CMakeFiles/argon2.dir/lib/genkat.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/genkat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/genkat.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c -o CMakeFiles/argon2.dir/lib/genkat.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/genkat.c -o CMakeFiles/argon2.dir/lib/genkat.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o: ../external/argon2/lib/impl-select.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/impl-select.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/impl-select.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/impl-select.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c > CMakeFiles/argon2.dir/lib/impl-select.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c > CMakeFiles/argon2.dir/lib/impl-select.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/impl-select.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c -o CMakeFiles/argon2.dir/lib/impl-select.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/impl-select.c -o CMakeFiles/argon2.dir/lib/impl-select.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/thread.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/thread.c.o: ../external/argon2/lib/thread.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/thread.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/thread.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/thread.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/thread.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c > CMakeFiles/argon2.dir/lib/thread.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c > CMakeFiles/argon2.dir/lib/thread.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/thread.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c -o CMakeFiles/argon2.dir/lib/thread.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/thread.c -o CMakeFiles/argon2.dir/lib/thread.c.s
 
 external/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o: ../external/argon2/lib/blake2/blake2.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/blake2/blake2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/lib/blake2/blake2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c
 
 external/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/lib/blake2/blake2.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c > CMakeFiles/argon2.dir/lib/blake2/blake2.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c > CMakeFiles/argon2.dir/lib/blake2/blake2.c.i
 
 external/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/lib/blake2/blake2.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c -o CMakeFiles/argon2.dir/lib/blake2/blake2.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/lib/blake2/blake2.c -o CMakeFiles/argon2.dir/lib/blake2/blake2.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.o: ../external/argon2/arch/x86_64/lib/argon2-sse2.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse2.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse2.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.o: ../external/argon2/arch/x86_64/lib/argon2-sse3.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-sse3.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-sse3.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.o: ../external/argon2/arch/x86_64/lib/argon2-xop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-xop.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-xop.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.o: ../external/argon2/arch/x86_64/lib/argon2-avx2.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx2.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx2.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.o: ../external/argon2/arch/x86_64/lib/argon2-avx512f.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-avx512f.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-avx512f.c.s
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o: external/argon2/CMakeFiles/argon2.dir/flags.make
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o: ../external/argon2/arch/x86_64/lib/argon2-arch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o -c /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c > CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i
 
 external/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /usr/local/opt/llvm@8/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/external/argon2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/external/argon2/arch/x86_64/lib/argon2-arch.c -o CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s
 
 # Object files for target argon2
 argon2_OBJECTS = \

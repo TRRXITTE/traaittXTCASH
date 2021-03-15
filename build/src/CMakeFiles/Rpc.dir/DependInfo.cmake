@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/JsonRpc.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/rpc/RpcServer.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

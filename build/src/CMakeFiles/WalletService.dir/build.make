@@ -79,119 +79,119 @@ include src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o: ../src/walletservice/ConfigurationManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp > CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp > CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/ConfigurationManager.cpp -o CMakeFiles/WalletService.dir/walletservice/ConfigurationManager.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o: ../src/walletservice/NodeFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp > CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp > CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/NodeFactory.cpp -o CMakeFiles/WalletService.dir/walletservice/NodeFactory.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o: ../src/walletservice/PaymentGateService.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentGateService.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentGateService.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o: ../src/walletservice/PaymentServiceJsonRpcMessages.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcMessages.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcMessages.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o: ../src/walletservice/PaymentServiceJsonRpcServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp > CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/PaymentServiceJsonRpcServer.cpp -o CMakeFiles/WalletService.dir/walletservice/PaymentServiceJsonRpcServer.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o: ../src/walletservice/WalletService.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp > CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp > CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletService.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletService.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o: ../src/walletservice/WalletServiceConfiguration.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceConfiguration.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceConfiguration.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o: ../src/walletservice/WalletServiceErrorCategory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp > CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/WalletServiceErrorCategory.cpp -o CMakeFiles/WalletService.dir/walletservice/WalletServiceErrorCategory.cpp.s
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o: src/CMakeFiles/WalletService.dir/flags.make
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o: ../src/walletservice/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/traaitt/Documents/GitHub/traaittCASH/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/WalletService.dir/walletservice/main.cpp.o"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WalletService.dir/walletservice/main.cpp.o -c /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WalletService.dir/walletservice/main.cpp.i"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp > CMakeFiles/WalletService.dir/walletservice/main.cpp.i
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp > CMakeFiles/WalletService.dir/walletservice/main.cpp.i
 
 src/CMakeFiles/WalletService.dir/walletservice/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WalletService.dir/walletservice/main.cpp.s"
-	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /usr/local/opt/llvm@8/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp -o CMakeFiles/WalletService.dir/walletservice/main.cpp.s
+	cd /Users/traaitt/Documents/GitHub/traaittCASH/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/traaitt/Documents/GitHub/traaittCASH/src/walletservice/main.cpp -o CMakeFiles/WalletService.dir/walletservice/main.cpp.s
 
 # Object files for target WalletService
 WalletService_OBJECTS = \

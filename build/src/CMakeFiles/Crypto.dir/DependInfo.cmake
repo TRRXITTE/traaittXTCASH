@@ -24,7 +24,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/crypto/slow-hash-x86.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Crypto.dir/crypto/slow-hash-x86.c.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/crypto/tree-hash.c" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
@@ -64,7 +64,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/crypto/chacha8.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Crypto.dir/crypto/chacha8.cpp.o"
   "/Users/traaitt/Documents/GitHub/traaittCASH/src/crypto/crypto.cpp" "/Users/traaitt/Documents/GitHub/traaittCASH/build/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
