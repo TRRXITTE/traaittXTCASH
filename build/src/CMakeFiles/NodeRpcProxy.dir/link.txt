@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libNodeRpcProxy.a CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeErrors.cpp.o CMakeFiles/NodeRpcProxy.dir/noderpcproxy/NodeRpcProxy.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libNodeRpcProxy.a
