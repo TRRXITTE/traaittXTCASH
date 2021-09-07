@@ -145,11 +145,7 @@ _configure_os() {
 }
 
 _note "traaittCASH Multi_Installer v1.0 (pepperoni)"
-_colorize green "CCCC U U RRR RRR EEE N N CCC Y Y|||2020 - TODAY||||||\n"
-"CC   U U RR  RR  E   NNN C    Y |||||||||||||||||||||\n"
-"CCCC UUU RRR RRR EEE N N CCC  Y |||||||||||||||||||||\n"
-"                                TRRXITTE INT. XTCASH \n"
-"HTTPS://TRAAITTCASH.COM         |||||||||||||||||||||\n" && echo
+_colorize green "CCCC U U RRR RRR EEE N N CCC Y Y|||2020 - TODAY||||||\n" && echo
 
 _configure_os
 
