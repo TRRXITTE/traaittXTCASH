@@ -145,7 +145,7 @@ _configure_os() {
 }
 
 _note "traaittCASH Multi_Installer v1.0 (pepperoni)"
-_colorize green "CCCC U U RRR RRR EEE N N CCC Y Y|||2020 - TODAY||||||\n" && echo
+_colorize green "Apple M1 support" && echo
 
 _configure_os
 
