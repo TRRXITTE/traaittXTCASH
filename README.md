@@ -9,7 +9,7 @@
 traaittCASH is a fast, easy to use and private decentralized cryptocurrency combined with a powerful ecosystem and an eco-friendly mining algorithm.
 
 TRRXITTE Int., incorporated:
-https://TRRXITTE.co
+https://TRRXITTE.com
 
 Official Website:
 https://traaittCASH.com
