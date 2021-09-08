@@ -2,7 +2,7 @@
 // Copyright (c) 2018, The BBSCoin Developers
 // Copyright (c) 2018, The Karbo Developers
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-// Copyright (c) 2020, The traaittCASH Developers
+// Copyright (c) 2020, TRRXITTE Int., incorporated
 //
 // Please see the included LICENSE file for more information.
 
