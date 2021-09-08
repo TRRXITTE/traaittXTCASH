@@ -40,7 +40,7 @@ GUI traaittCASH Cryptocurrency Wallet on Apple, Windows or Linux Machines.
 
 traaittCASH Interface XT:
 
-You can always find the newest Release here: https://github.com/traaittCASH/traaittCASHInterface/releases
+You can always find the newest Release here: https://github.com/TRRXITTE/traaittCASHInterface/releases
 
 
 # Command Line Interface Wallet
