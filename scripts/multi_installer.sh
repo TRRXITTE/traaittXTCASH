@@ -53,7 +53,6 @@ _set_wd() {
                     ;;
             esac
         fi
-        mkdir traaittcash
         git clone -b master --single-branch https://github.com/TRRXITTE/traaittCASH traaittCASH   >>build.log 2>&1 || _fail "Unable to clone git repository. Please see build.log for more information"
         cd traaittCASH
     fi
@@ -145,7 +144,7 @@ _configure_os() {
 }
 
 _note "traaittCASH Multi_Installer v1.0 "
-_colorize green "Apple M1 support" && echo
+_colorize green "TRRXITTE Int., incorporated" && echo
 
 _configure_os
 
