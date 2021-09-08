@@ -89,28 +89,28 @@ namespace CryptoNote
         const uint64_t MINIMUM_FEE = UINT64_C(10);
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
-        const uint64_t MINIMUM_MIXIN_V1                              = 0;
+        const uint64_t MINIMUM_MIXIN_V1                              = 3;
 
         const uint64_t MAXIMUM_MIXIN_V1                              = 10;
 
-        const uint64_t MINIMUM_MIXIN_V2                              = 0;
+        const uint64_t MINIMUM_MIXIN_V2                              = 5;
 
         const uint64_t MAXIMUM_MIXIN_V2                              = 10;
 
-        const uint64_t MINIMUM_MIXIN_V3                              = 0;
+        const uint64_t MINIMUM_MIXIN_V3                              = 8;
 
-        const uint64_t MAXIMUM_MIXIN_V3                              = 10;
+        const uint64_t MAXIMUM_MIXIN_V3                              = 8;
 
         /* The heights to activate the mixin limits at */
-        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 7000000;
+        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 17000000;
 
-        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 17000000;
+        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 43000000;
 
-        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 47000000;
+        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 68000000;
 
         /* The mixin to use by default with zedwallet and turtle-service */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
-        const uint64_t DEFAULT_MIXIN_V0 = 0;
+        const uint64_t DEFAULT_MIXIN_V0 = 3;
 
         const uint64_t DEFAULT_MIXIN_V1 = MAXIMUM_MIXIN_V1;
 
@@ -234,12 +234,9 @@ namespace CryptoNote
         /* Block heights we are going to have hard forks at */
                 const uint64_t FORK_HEIGHTS[] = {
                     1, // 1
-                    1000000, // 2
-                    2000000, // 3
-                    3000000, // 4
-                    4000000, // 5
-                    5000000, // 6
-                    6000000, // 7
+                    17000000, // 2
+                    43000000, // 3
+                    68000000, // 4
                 };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
