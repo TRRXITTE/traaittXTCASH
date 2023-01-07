@@ -305,7 +305,7 @@ namespace CryptoNote
 
     const int RPC_DEFAULT_PORT = 14486;
 
-    const int SERVICE_DEFAULT_PORT = 8447;
+    const int SERVICE_DEFAULT_PORT = 8440;
 
     const size_t P2P_LOCAL_WHITE_PEERLIST_LIMIT = 1000;
 
