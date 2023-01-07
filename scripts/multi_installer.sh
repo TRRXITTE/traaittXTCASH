@@ -144,7 +144,7 @@ _configure_os() {
 }
 
 _note "traaittCASH Multi_Installer v1.0 "
-_colorize green "TRRXITTE Int., incorporated" && echo
+_colorize green "TRRXITTE Int., incorporate" && echo
 
 _configure_os
 
