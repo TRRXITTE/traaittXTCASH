@@ -36,7 +36,7 @@ https://github.com/TRRXITTE/traaittCASHInterface/releases
 ```
 
 # Graphical User Interface Wallet
-GUI traaittCASH cryptocurrency wallet on Apple, Windows or Linux Machines.
+traaittCASH cryptocurrency wallet on Apple, Windows or Linux Machines.
 
 traaittCASH Interface XT:
 
