@@ -110,7 +110,7 @@ namespace CryptoNote
 
         /* The mixin to use by default with cmdedition and service application */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
-        const uint64_t DEFAULT_MIXIN_V0 = 3;
+        const uint64_t DEFAULT_MIXIN_V0 = 8;
 
         const uint64_t DEFAULT_MIXIN_V1 = MAXIMUM_MIXIN_V1;
 
