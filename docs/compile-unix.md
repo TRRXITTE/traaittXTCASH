@@ -1,4 +1,4 @@
-![image](https://github.com/TRRXITTE/traaittPlatform/blob/master/docs/ETRX.png)
+![image](https://github.com/TRRXITTE/traaittCASH/blob/master/docs/ETRX.png)
 
 #### traaittCASH [XTCASH] is a fast, and easy way to send money to friends and businesses
 
@@ -43,7 +43,7 @@ However, if you wish to create _portable_ binaries that can be shared between sy
 -   `sudo pip install cmake`
 -   `export CC=gcc-8`
 -   `export CXX=g++-8`
--   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittPlatform`
+-   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittCASH`
 -   `cd traaittCASH`
 -   `mkdir build`
 -   `cd build`
@@ -76,7 +76,7 @@ The binaries will be in the `src` folder when you are complete.
 *   `sudo pip install cmake`
 *   `export CC=clang-6.0`
 *   `export CXX=clang++-6.0`
-*   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittPlatform`
+*   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittCASH`
 *   `cd traaittCASH`
 *   `mkdir build`
 *   `cd build`
@@ -117,7 +117,7 @@ The binaries will be in the `src` folder when you are complete.
 **Note:** If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
--   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittPlatform`
+-   `git clone -b master --single-branch https://github.com/TRRXITTE/traaittCASH`
 -   `cd traaittCASH`
 -   `mkdir build`
 -   `cd build`

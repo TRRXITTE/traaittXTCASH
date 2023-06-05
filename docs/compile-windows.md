@@ -46,7 +46,7 @@ For 64-bit:
 For 32-bit:
 
 -   From the start menu, open **x86 Native Tools Command Prompt for VS 2019**.
--   `cd <your_traaittPlatform_directory>`
+-   `cd <your_traaittCASH_directory>`
 -   `mkdir build`
 -   `cd build`
 -   `cmake -G "Visual Studio 16 2019" -A Win32 .. -DBOOST_ROOT=C:/local/boost_1_69_0`
