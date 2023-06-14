@@ -352,9 +352,6 @@ namespace CryptoNote
         {0xb7, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
 
     const char *const SEED_NODES[] = {
-	  "34.94.53.44:14487", //PRIMARY SET
-      "34.87.165.129:14487", //
-      "34.89.3.246:14487", //
       "35.241.111.255:14487", //XTCASH WORLDWIDE
       "34.64.172.203:14487", //XTCASH WORLDWIDE
       "34.87.112.219:14487", //XTCASH WORLDWIDE
