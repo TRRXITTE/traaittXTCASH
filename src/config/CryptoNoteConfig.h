@@ -236,28 +236,34 @@ namespace CryptoNote
                 const uint64_t FORK_HEIGHTS[] = {
                     1, // 1
                     700000, // 2
-                    800000, // 3
-                    900000, // 4
-                    1000000, // 5
-                    1100000, // 6
-                    1200000, // 7
-                    1300000, // 8
-                    1400000, // 9
-                    1500000, // 10
-                    1600000, // 11
-                    1700000, // 12
-                    1800000, // 13
-                    1900000, // 14
-                    2000000, // 15
-                    2100000, // 16
-                    2200000, // 17
-                    2300000, // 18
-                    2400000, // 19
-                    4500000, // 20
+                    714000, // 3
+                    728000, // 4
+                    732000, // 5
+                    746000, // 6
+                    758000, // 7
+                    772000, // 8
+                    786000, // 9
+                    800000, // 10
+                    1000000, // 11
+                    1100000, // 12
+                    1200000, // 13
+                    1300000, // 14
+                    1400000, // 15
+                    1500000, // 16
+                    1600000, // 17
+                    1700000, // 18
+                    1800000, // 19
+                    1900000, // 20
+                    2000000, // 21
+                    2100000, // 22
+                    2200000, // 23
+                    2300000, // 24
+                    2400000, // 25
+                    4500000, // 26
                 };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
-        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 5;
+        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 10;
 
         const uint64_t FORK_HEIGHTS_SIZE = sizeof(FORK_HEIGHTS) / sizeof(*FORK_HEIGHTS);
 
@@ -361,9 +367,9 @@ namespace CryptoNote
     const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 125; // 125 files
     const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 4; // 4 DB threads
 
-    const char LATEST_VERSION_URL[] = "http://github.com/TRRXITTE/traaittCASH/releases";
+    const char LATEST_VERSION_URL[] = "https://traaitcash.com/cmd-latest";
 
-    const std::string LICENSE_URL = "https://github.com/TRRXITTE/traaittCASH/blob/master/LICENSE";
+    const std::string LICENSE_URL = "https://traaittcash.com/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
         {0xb7, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
