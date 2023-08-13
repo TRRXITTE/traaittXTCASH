@@ -353,7 +353,7 @@ namespace CryptoNote
     const size_t P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT = 70;
 
     const uint32_t P2P_DEFAULT_HANDSHAKE_INTERVAL = 60; // seconds
-    const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 50000000; // 50000000 bytes maximum packet size
+    const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 100000000; // 50000000 bytes maximum packet size
     const uint32_t P2P_DEFAULT_PEERS_IN_HANDSHAKE = 250;
 
     const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 5000; // 5 seconds
