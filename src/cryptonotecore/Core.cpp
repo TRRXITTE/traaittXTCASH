@@ -2492,14 +2492,14 @@ namespace CryptoNote
 
         if (storageBlocksCount > dbBlocksCount)
         {
-            logger(Logging::INFO) << "Importing blocks from blockchain storage";
+            logger(Logging::INFO, Logging::BRIGHT_GREEN) << "Importing blocks from blockchain storage";
             importBlocksFromStorage();
         }
         else if (storageBlocksCount < dbBlocksCount)
         {
             auto cutFrom = findCommonRoot(*mainChainStorage, *chainsLeaves[0]) + 1;
 
-            logger(Logging::INFO) << "DB has more blocks than blockchain storage, cutting from block index: "
+            logger(Logging::INFO, Logging::BRIGHT_RED) << "DB has more blocks than blockchain storage, cutting from block index: "
                                   << cutFrom;
             cutSegment(*chainsLeaves[0], cutFrom);
 

@@ -19,13 +19,13 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 144; // seconds
+        const uint64_t DIFFICULTY_TARGET = 32; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500000000;
 
         const size_t CRYPTONOTE_MAX_BLOCK_BLOB_SIZE = 500000000;
 
-        const size_t CRYPTONOTE_MAX_TX_SIZE = 1000000000000;
+        const size_t CRYPTONOTE_MAX_TX_SIZE = 1000000000;
 
         const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 925524;
 
@@ -42,7 +42,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(8874400000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(10000000000000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
@@ -61,7 +61,7 @@ namespace CryptoNote
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
         const char GENESIS_COINBASE_TX_HEX[] =
-            "012801ff00018080df9ad7949f0102a3f71fae2b8cb2d734c73486bce10e7ab1acf236092a99a5ab0337bb988ed13e21019b5e0485bd0b56d5e104dc9a9a5bae15004abd78677bb72d8657743df77349a5";
+            "012801ff000180d0acd8a97702ca69426458bf92abc0151eca3daf14ce591b3352fa5b38cd5b457098dba0b7e6210181e2fb24e82b116d08b505cbfb7d3f42823f97d0be77fb28e5256109cfb46645";
 
         static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
@@ -70,7 +70,7 @@ namespace CryptoNote
         /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
            You can get this value by doing "print_block 2" in XTCASHnetwork. It is used to know what timestamp
            to import from when the block height cannot be found in the node or the node is offline. */
-        const uint64_t GENESIS_BLOCK_TIMESTAMP = 1582814823;
+        const uint64_t GENESIS_BLOCK_TIMESTAMP = 1686748487;
 
         const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 
@@ -84,9 +84,9 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = 600;
 
-        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 8;
+        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 2;
 
-        const uint64_t MINIMUM_FEE = UINT64_C(10);
+        const uint64_t MINIMUM_FEE = UINT64_C(100);
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1                              = 0;
@@ -102,15 +102,14 @@ namespace CryptoNote
         const uint64_t MAXIMUM_MIXIN_V3                              = 10;
 
         /* The heights to activate the mixin limits at */
-        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 1000000;
+        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 440000;
 
-        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 2400000;
+        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 800000;
 
-        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 4500000;
+        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 1000000;
 
         /* The mixin to use by default with cmdedition and service application */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
-        /* static mixing 18 for static implementation requirements obfuscation at height 4500000 */
         const uint64_t DEFAULT_MIXIN_V0 = 3;
 
         const uint64_t DEFAULT_MIXIN_V1 = MAXIMUM_MIXIN_V1;
@@ -119,13 +118,13 @@ namespace CryptoNote
 
         const uint64_t DEFAULT_MIXIN_V3 = MAXIMUM_MIXIN_V3;
 
-        const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(0);
+        const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(100);
 
         const uint64_t DEFAULT_DUST_THRESHOLD_V2 = UINT64_C(0);
 
         const uint32_t DUST_THRESHOLD_V2_HEIGHT = MIXIN_LIMITS_V2_HEIGHT;
 
-        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 3;
+        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 1000000;
 
         const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
@@ -166,12 +165,12 @@ namespace CryptoNote
 
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 88'744'000'00000000;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 100'000'000'000'00;
 
 
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 88'744'000'00000000;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1'000'000'000'00;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
 
@@ -208,11 +207,11 @@ namespace CryptoNote
            at any given time. Incoming fusion transactions that attempt to exceed this limit
            will be rejected from the pool and will not be added. This mechanism is in place
            to help curtail fusion transaction spam. */
-        const size_t FUSION_TX_MAX_POOL_COUNT = 17;
+        const size_t FUSION_TX_MAX_POOL_COUNT = 20;
 
-        const size_t NORMAL_TX_MAX_OUTPUT_RATIO_V1 = 101;
+        const size_t NORMAL_TX_MAX_OUTPUT_RATIO_V1 = 10;
 
-        const size_t NORMAL_TX_MAX_OUTPUT_RATIO_V1_HEIGHT = 2222222;
+        const size_t NORMAL_TX_MAX_OUTPUT_RATIO_V1_HEIGHT = 2200000;
 
         const uint32_t UPGRADE_HEIGHT_V2 = 1;
 
@@ -324,9 +323,9 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 14487;
+    const int P2P_DEFAULT_PORT = 14486;
 
-    const int RPC_DEFAULT_PORT = 14486;
+    const int RPC_DEFAULT_PORT = 14478;
 
     const int SERVICE_DEFAULT_PORT = 8440;
 
@@ -336,12 +335,12 @@ namespace CryptoNote
 
     // P2P Network Configuration Section - This defines our current P2P network version
     // and the minimum version for communication between nodes
-    const uint8_t P2P_CURRENT_VERSION = 7;
+    const uint8_t P2P_CURRENT_VERSION = 1;
 
-    const uint8_t P2P_MINIMUM_VERSION = 6;
+    const uint8_t P2P_MINIMUM_VERSION = 1;
 
     // This defines the minimum P2P version required for lite blocks propogation
-    const uint8_t P2P_LITE_BLOCKS_PROPOGATION_VERSION = 4;
+    const uint8_t P2P_LITE_BLOCKS_PROPOGATION_VERSION = 1;
 
     // This defines the number of versions ahead we must see peers before we start displaying
     // warning messages that we need to upgrade our software.
@@ -372,16 +371,16 @@ namespace CryptoNote
     const std::string LICENSE_URL = "https://traaittcash.com/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-        {0xb7, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
+        {0xb8, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
 
     const char *const SEED_NODES[] = {
-      "35.241.111.255:14487", //XTCASH WORLDWIDE
-      "34.64.172.203:14487", //XTCASH WORLDWIDE
-      "34.87.112.219:14487", //XTCASH WORLDWIDE
-      "35.246.10.246:14487", //XTCASH WORLDWIDE
-	  "34.107.123.203:14487", //XTCASH WORLDWIDE
-      "34.95.173.217:14487", //XTCASH WORLDWIDE
-      "34.86.103.64:14487", //XTCASH WORLDWIDE
-      "34.106.203.152:14487" //XTCASH WORLDWIDE
+      "35.241.111.255:14486", //XTCASH WORLDWIDE
+      "34.64.172.203:14486", //XTCASH WORLDWIDE
+      "34.87.112.219:14486", //XTCASH WORLDWIDE
+      "35.246.10.246:14486", //XTCASH WORLDWIDE
+	  "34.107.123.203:14486", //XTCASH WORLDWIDE
+      "34.95.173.217:14486", //XTCASH WORLDWIDE
+      "34.86.103.64:14486", //XTCASH WORLDWIDE
+      "34.106.203.152:14486" //XTCASH WORLDWIDE
     };
 } // namespace CryptoNote

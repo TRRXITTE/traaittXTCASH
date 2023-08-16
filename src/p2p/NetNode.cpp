@@ -71,7 +71,7 @@ namespace
     void addPortMapping(Logging::LoggerRef &logger, uint32_t port)
     {
         // Add UPnP port mapping
-        logger(INFO) << "Attempting to add IGD port mapping.";
+        logger(INFO, BRIGHT_CYAN) << "Attempting to add IGD port mapping.";
         int result;
         UPNPDev *deviceList = upnpDiscover(1000, NULL, NULL, 0, 0, 2, &result);
         UPNPUrls urls;
@@ -97,11 +97,11 @@ namespace
                         "0")
                     != 0)
                 {
-                    logger(ERROR) << "UPNP_AddPortMapping failed.";
+                    logger(ERROR, BRIGHT_RED) << "UPNP_AddPortMapping failed.";
                 }
                 else
                 {
-                    logger(INFO) << "Added IGD port mapping.";
+                    logger(INFO, BRIGHT_GREEN) << "Added IGD port mapping.";
                 }
             }
             else if (result == 2)
@@ -121,7 +121,7 @@ namespace
         }
         else
         {
-            logger(INFO) << "No IGD was found.";
+            logger(INFO, BRIGHT_RED) << "No IGD was found.";
         }
     }
 
@@ -411,7 +411,7 @@ namespace CryptoNote
     bool NodeServer::make_default_config()
     {
         m_config.m_peer_id = Random::randomValue<uint64_t>();
-        logger(INFO, BRIGHT_WHITE) << "Generated new peer ID: " << m_config.m_peer_id;
+        logger(INFO, BRIGHT_GREEN) << "Generated new peer ID: " << m_config.m_peer_id;
         return true;
     }
 
@@ -519,17 +519,17 @@ namespace CryptoNote
         // m_net_server.get_config_object().m_invoke_timeout = CryptoNote::P2P_DEFAULT_INVOKE_TIMEOUT;
 
         // try to bind
-        logger(INFO) << "Binding on " << m_bind_ip << ":" << m_port;
+        logger(INFO, BRIGHT_RED) << "Binding on " << m_bind_ip << ":" << m_port;
         m_listeningPort = Common::fromString<uint16_t>(m_port);
 
         m_listener =
             System::TcpListener(m_dispatcher, System::Ipv4Address(m_bind_ip), static_cast<uint16_t>(m_listeningPort));
 
-        logger(INFO) << "Net service bound on " << m_bind_ip << ":" << m_listeningPort;
+        logger(INFO, BRIGHT_GREEN) << "Net service bound on " << m_bind_ip << ":" << m_listeningPort;
 
         if (m_external_port)
         {
-            logger(INFO) << "External port defined as " << m_external_port;
+            logger(INFO, BRIGHT_YELLOW) << "External port defined as " << m_external_port;
         }
 
         addPortMapping(logger, m_listeningPort);
@@ -546,7 +546,7 @@ namespace CryptoNote
 
     bool NodeServer::run()
     {
-        logger(INFO) << "Starting node_server";
+        logger(INFO, BRIGHT_GREEN) << "Starting XTCASHnetwork server.";
 
         m_workingContextGroup.spawn(std::bind(&NodeServer::acceptLoop, this));
         m_workingContextGroup.spawn(std::bind(&NodeServer::onIdle, this));
@@ -555,11 +555,11 @@ namespace CryptoNote
 
         m_stopEvent.wait();
 
-        logger(INFO) << "Stopping NodeServer and its " << m_connections.size() << " connections...";
+        logger(INFO, BRIGHT_RED) << "Stopping NodeServer and its " << m_connections.size() << " connections...";
         safeInterrupt(m_workingContextGroup);
         m_workingContextGroup.wait();
 
-        logger(INFO) << "NodeServer loop stopped";
+        logger(INFO, BRIGHT_RED) << "NodeServer loop stopped";
         return true;
     }
 
@@ -996,7 +996,7 @@ namespace CryptoNote
 
                 if (++try_count > m_seed_nodes.size())
                 {
-                    logger(ERROR) << "Failed to connect to any of seed peers, continuing without seeds";
+                    logger(ERROR, BRIGHT_RED) << "Failed to connect to any of seed peers, continuing without seeds";
                     break;
                 }
                 if (++current_index >= m_seed_nodes.size())

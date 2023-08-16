@@ -1001,7 +1001,7 @@ namespace CryptoNote
                                 << ENDL;
             logger(INFO, BRIGHT_MAGENTA) << "===============================================================" << ENDL << ENDL;
 
-            logger(INFO, BRIGHT_MAGENTA) << asciiArt << ENDL;
+            logger(INFO, BRIGHT_GREEN) << asciiArt << ENDL;
 
             m_observerManager.notify(&ICryptoNoteProtocolObserver::blockchainSynchronized, m_core.getTopBlockIndex());
         }
@@ -1255,7 +1255,7 @@ namespace CryptoNote
             if (peerHeight > m_blockchainHeight)
             {
                 m_blockchainHeight = peerHeight;
-                logger(Logging::INFO, Logging::BRIGHT_GREEN) << "New Top Block Detected: " << peerHeight;
+                logger(Logging::INFO, Logging::BRIGHT_GREEN) << "current height added: " << peerHeight;
             }
         }
 

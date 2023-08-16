@@ -1,6 +1,6 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2018, The Karai Developers
-// Copyright (c) 2018-2019, The TurtleCoin Developers
+// Copyright (c) 2018-2020, The TurtleCoin Developers // Copyright (c) 2020, TRRXITTE inc.
 // Copyright (c) 2019, The CyprusCoin Developers
 //
 // Please see the included LICENSE file for more information.
@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
 
         logger(INFO, BRIGHT_MAGENTA) << getProjectCLIHeader() << std::endl;
 
-        logger(INFO) << "Program Working Directory: " << cwdPath;
+        logger(INFO, BRIGHT_GREEN) << "Program Working Directory: " << cwdPath;
 
         // create objects and link them
         CryptoNote::CurrencyBuilder currencyBuilder(logManager);
@@ -283,14 +283,14 @@ int main(int argc, char *argv[])
 
         if (use_checkpoints)
         {
-            logger(INFO) << "Loading Checkpoints for faster initial sync...";
+            logger(INFO, BRIGHT_GREEN) << "Loading Checkpoints for faster initial sync...";
             if (config.checkPoints == "default")
             {
                 for (const auto &cp : CryptoNote::CHECKPOINTS)
                 {
                     checkpoints.addCheckpoint(cp.index, cp.blockId);
                 }
-                logger(INFO) << "Loaded " << CryptoNote::CHECKPOINTS.size() << " default checkpoints";
+                logger(INFO, BRIGHT_GREEN) << "Loaded " << CryptoNote::CHECKPOINTS.size() << " default checkpoints";
             }
             else
             {
@@ -337,7 +337,7 @@ int main(int argc, char *argv[])
         }
 
         System::Dispatcher dispatcher;
-        logger(INFO) << "Initializing core...";
+        logger(INFO, BRIGHT_GREEN) << "Initializing ...";
 
         std::unique_ptr<IMainChainStorage> tmainChainStorage = createSwappedMainChainStorage(config.dataDirectory, currency);
 
@@ -350,7 +350,7 @@ int main(int argc, char *argv[])
             std::move(tmainChainStorage));
 
         ccore.load();
-        logger(INFO) << "Core initialized OK";
+        logger(INFO, BRIGHT_MAGENTA) << "XTCASHnetwork  initialized";
 
         CryptoNote::CryptoNoteProtocolHandler cprotocol(currency, dispatcher, ccore, nullptr, logManager);
         CryptoNote::NodeServer p2psrv(dispatcher, cprotocol, logManager);
@@ -358,14 +358,14 @@ int main(int argc, char *argv[])
 
         cprotocol.set_p2p_endpoint(&p2psrv);
         DaemonCommandsHandler dch(ccore, p2psrv, logManager, &rpcServer);
-        logger(INFO) << "Initializing p2p server...";
+        logger(INFO, BRIGHT_GREEN) << "Initializing p2p server...";
         if (!p2psrv.init(netNodeConfig))
         {
             logger(ERROR, BRIGHT_RED) << "Failed to initialize p2p server.";
             return 1;
         }
 
-        logger(INFO) << "P2p server initialized OK";
+        logger(INFO, BRIGHT_CYAN) << "P2P server initialized.";
 
         if (!config.noConsole)
         {
@@ -373,30 +373,30 @@ int main(int argc, char *argv[])
         }
 
         // Fire up the RPC Server
-        logger(INFO) << "Starting core rpc server on address " << config.rpcInterface << ":" << config.rpcPort;
+        logger(INFO, BRIGHT_MAGENTA) << "Starting core rpc server on address " << config.rpcInterface << ":" << config.rpcPort;
         rpcServer.setFeeAddress(config.feeAddress);
         rpcServer.setFeeAmount(config.feeAmount);
         rpcServer.enableCors(config.enableCors);
         rpcServer.start(config.rpcInterface, config.rpcPort);
-        logger(INFO) << "Core rpc server started ok";
+        logger(INFO, BRIGHT_GREEN) << "Core RPC server started.";
 
         Tools::SignalHandler::install([&dch] {
             dch.exit({});
             dch.stop_handling();
         });
 
-        logger(INFO) << "Starting p2p net loop...";
+        logger(INFO, YELLOW) << "Starting P2P network loop...";
         p2psrv.run();
-        logger(INFO) << "p2p net loop stopped";
+        logger(INFO, BRIGHT_RED) << "p2p net loop stopped";
 
         dch.stop_handling();
 
         // stop components
-        logger(INFO) << "Stopping core rpc server...";
+        logger(INFO, BRIGHT_RED) << "Stopping core rpc server...";
         rpcServer.stop();
 
         // deinitialize components
-        logger(INFO) << "Deinitializing p2p...";
+        logger(INFO, BRIGHT_RED) << "Deinitializing p2p...";
         p2psrv.deinit();
 
         cprotocol.set_p2p_endpoint(nullptr);
@@ -408,6 +408,6 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    logger(INFO) << "Node stopped.";
+    logger(INFO, BRIGHT_GREEN) << "Node stopped.";
     return 0;
 }
