@@ -170,7 +170,7 @@ namespace CryptoNote
 
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1'000'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100'000'000'000'00;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
 
