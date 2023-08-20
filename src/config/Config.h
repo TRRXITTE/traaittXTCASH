@@ -13,7 +13,7 @@ namespace Config
         /* Pretty self explanatory, this configures whether we process
            coinbase transactions in the wallet. Most wallets have not received
            coinbase transactions. */
-        bool skipCoinbaseTransactions = true;
+        bool skipCoinbaseTransactions = false;
     };
 
     class DaemonConfig
