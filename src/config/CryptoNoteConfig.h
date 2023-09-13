@@ -304,7 +304,7 @@ namespace CryptoNote
 
     const int P2P_DEFAULT_PORT = 14487;
 
-    const int RPC_DEFAULT_PORT = 14486;
+    const int RPC_DEFAULT_PORT = 14423;
 
     const int SERVICE_DEFAULT_PORT = 8440;
 
