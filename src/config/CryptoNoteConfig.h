@@ -42,7 +42,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(10000000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(100000000000000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
@@ -61,7 +61,7 @@ namespace CryptoNote
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
         const char GENESIS_COINBASE_TX_HEX[] =
-            "012801ff000180d0acd8a97702ca69426458bf92abc0151eca3daf14ce591b3352fa5b38cd5b457098dba0b7e6210181e2fb24e82b116d08b505cbfb7d3f42823f97d0be77fb28e5256109cfb46645";
+            "012801ff000180a0bef3a0a90902cfe6c3cb11bbfa636af42bb1d74a64d5c4f0b6cdde5c25b8591a71ac4c22f8372101e55dad0a9c6bf12319eefb94e4ac8760bf592cfb40c708109b9e2e1e0ac4f13d";
 
         static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
@@ -75,7 +75,7 @@ namespace CryptoNote
         const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE =
-            10000000; // size of block (bytes) after which reward for block calculated using block size
+            1000000; // size of block (bytes) after which reward for block calculated using block size
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2 = 20000;
 
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1 = 10000;
@@ -86,20 +86,20 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 2;
 
-        const uint64_t MINIMUM_FEE = UINT64_C(100);
+        const uint64_t MINIMUM_FEE = UINT64_C(10);
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V1                              = 5;
+        const uint64_t MAXIMUM_MIXIN_V1                              = 4;
 
         const uint64_t MINIMUM_MIXIN_V2                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V2                              = 8;
+        const uint64_t MAXIMUM_MIXIN_V2                              = 5;
 
         const uint64_t MINIMUM_MIXIN_V3                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V3                              = 10;
+        const uint64_t MAXIMUM_MIXIN_V3                              = 8;
 
         /* The heights to activate the mixin limits at */
         const uint32_t MIXIN_LIMITS_V1_HEIGHT = 440000;
@@ -118,7 +118,7 @@ namespace CryptoNote
 
         const uint64_t DEFAULT_MIXIN_V3 = MAXIMUM_MIXIN_V3;
 
-        const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(100);
+        const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(10);
 
         const uint64_t DEFAULT_DUST_THRESHOLD_V2 = UINT64_C(0);
 
@@ -150,7 +150,7 @@ namespace CryptoNote
 
         static_assert(2 * DIFFICULTY_CUT <= DIFFICULTY_WINDOW - 2, "Bad DIFFICULTY_WINDOW or DIFFICULTY_CUT");
 
-        const size_t MAX_BLOCK_SIZE_INITIAL = 74400;
+        const size_t MAX_BLOCK_SIZE_INITIAL = 1000000;
 
         const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR = 100 * 1024;
 
@@ -165,12 +165,12 @@ namespace CryptoNote
 
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 100'000'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 1'000'000'000'000'00;
 
 
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100'000'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1'000'000'000'000'00;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
 
@@ -234,35 +234,14 @@ namespace CryptoNote
         /* Block heights we are going to have hard forks at */
                 const uint64_t FORK_HEIGHTS[] = {
                     1, // 1
-                    700000, // 2
-                    714000, // 3
-                    728000, // 4
-                    732000, // 5
-                    746000, // 6
-                    758000, // 7
-                    772000, // 8
-                    786000, // 9
-                    800000, // 10
-                    1000000, // 11
-                    1100000, // 12
-                    1200000, // 13
-                    1300000, // 14
-                    1400000, // 15
-                    1500000, // 16
-                    1600000, // 17
-                    1700000, // 18
-                    1800000, // 19
-                    1900000, // 20
-                    2000000, // 21
-                    2100000, // 22
-                    2200000, // 23
-                    2300000, // 24
-                    2400000, // 25
-                    4500000, // 26
+                    440000, // 2
+                    800000, // 3
+                    1000000, // 4
+                    100000000, // 5
                 };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
-        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 10;
+        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 4;
 
         const uint64_t FORK_HEIGHTS_SIZE = sizeof(FORK_HEIGHTS) / sizeof(*FORK_HEIGHTS);
 
@@ -323,9 +302,9 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 14486;
+    const int P2P_DEFAULT_PORT = 14487;
 
-    const int RPC_DEFAULT_PORT = 14478;
+    const int RPC_DEFAULT_PORT = 14486;
 
     const int SERVICE_DEFAULT_PORT = 8440;
 
@@ -371,16 +350,16 @@ namespace CryptoNote
     const std::string LICENSE_URL = "https://traaittcash.com/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-        {0xb8, 0x4c, 0x4a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
+        {0xb8, 0x4c, 0x1a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
 
     const char *const SEED_NODES[] = {
-      "35.241.111.255:14486", //XTCASH WORLDWIDE
-      "34.64.172.203:14486", //XTCASH WORLDWIDE
-      "34.87.112.219:14486", //XTCASH WORLDWIDE
-      "35.246.10.246:14486", //XTCASH WORLDWIDE
-	  "34.107.123.203:14486", //XTCASH WORLDWIDE
-      "34.95.173.217:14486", //XTCASH WORLDWIDE
-      "34.86.103.64:14486", //XTCASH WORLDWIDE
-      "34.106.203.152:14486" //XTCASH WORLDWIDE
+      "35.241.111.255:14487", //XTCASH WORLDWIDE
+      "34.64.172.203:14487", //XTCASH WORLDWIDE
+      "34.87.112.219:14487", //XTCASH WORLDWIDE
+      "35.246.10.246:14487", //XTCASH WORLDWIDE
+	  "34.107.123.203:14487", //XTCASH WORLDWIDE
+      "34.95.173.217:14487", //XTCASH WORLDWIDE
+      "34.86.103.64:14487", //XTCASH WORLDWIDE
+      "34.106.203.152:14487" //XTCASH WORLDWIDE
     };
 } // namespace CryptoNote

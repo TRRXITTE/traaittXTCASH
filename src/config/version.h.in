@@ -6,7 +6,7 @@
 #define PROJECT_COPYRIGHT "Copyright 2020 - TODAY, TRRXITTE Int., incorporate"
 #define APP_VER_MAJOR 0
 #define APP_VER_MINOR 10
-#define APP_VER_REV 0
+#define APP_VER_REV 44
 #define APP_VER_BUILD 00
 
 #define BUILD_COMMIT_ID "@VERSION@"
