@@ -22,8 +22,8 @@ https://miningpoolstats.stream/traaittcash
 
 
 Blockchain Cache API:  
-https://cacheapi.traaittcash.com
-https://docs.cacheapi.trrxitte.com
+https://cacheapi.traaittcash.com  
+https://docs.cacheapi.trrxitte.com  
 
 
 # Installing
