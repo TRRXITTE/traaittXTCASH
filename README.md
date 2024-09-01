@@ -38,27 +38,27 @@ https://github.com/TRRXITTE/traaittCASHInterface/releases
 ```
 
 # Graphical User Interface Wallet
-traaittCASH cryptocurrency wallet on Apple, Windows or Linux Machines.
+traaittXTCASH cryptocurrency wallet on Apple, Windows or Linux Machines.
 
-traaittCASH Interface XT:
+traaittXTCASH Enterprise:
 
-You can always find the newest Release here: https://github.com/TRRXITTE/traaittCASHInterface/releases
+You can always find the newest Release here: https://github.com/TRRXITTE/traaittXTCASHEnterprise/releases
 
 
 # Command Line Interface Wallet
-How to properly use traaittCASH Cryptocurrency on Apple, Windows or Linux Machines.
+How to properly use XTCASH cryptocurrency on Apple, Windows or Linux Machines.
 
 1st step: synchronize XTCASHnetwork
 ```
-traaittCASH network is used to synchronize the transaction history of your Wallet and
+XTCASHnetwork is used to synchronize the transaction history of your Wallet and
 must be opened first.
 ```
-2nd step: traaittCASH cmd edition Wallet
+2nd step: cmdedition wallet
 ```
-Open traaittCASH cmd edition Wallet to Receive, Send or simply view your current balance.
+Open cmdedition Wallet to Receive, Send or simply view your current balance.
 ````
 ```
-traaittCASH [XTCASH] addresses always start with cash.
+traaittXTCASH [XTCASH] addresses always start with cash.
 ```
 
 
