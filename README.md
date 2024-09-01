@@ -5,7 +5,8 @@
 
 # traaittXTCASH [XTCASH]
 
-traaittXTCASH is a secure and optimized cryptocurrency network, providing low fees and worldwide transfers.
+traaittXTCASH is a secure and optimized cryptocurrency network, providing low fees and worldwide transfers.  
+  
 TRRXITTE Int., incorporate:  
 https://TRRXITTE.com
 
