@@ -4,15 +4,14 @@
 #### Master Build Status
 ![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) 
 
-# traaittCASH [XTCASH]
+# traaittXTCASH [XTCASH]
 
-traaittCASH is a fast, easy to use and private decentralized cryptocurrency combined with a powerful ecosystem and an eco-friendly mining algorithm.
-
+traaittXTCASH is a secure and optimized cryptocurrency network, providing low fees and worldwide transfers.
 TRRXITTE Int., incorporate:  
 https://TRRXITTE.com
 
 Official Website:  
-https://traaittCASH.com
+https://traaittXTCASH.com
 
 Explorer Interface:  
 https://interface.traaittcash.com
