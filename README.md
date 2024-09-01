@@ -31,10 +31,10 @@ https://docs.cacheapi.trrxitte.com
 
 We offer binary images of the latest releases here: 
 ```
-https://github.com/TRRXITTE/traaittCASH/releases
+https://github.com/TRRXITTE/traaittXTCASH/releases
 ```
 ```
-https://github.com/TRRXITTE/traaittCASHInterface/releases
+https://github.com/TRRXITTE/traaittXTCASHEnterprise/releases
 ```
 
 # Graphical User Interface Wallet
