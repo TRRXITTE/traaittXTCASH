@@ -1,7 +1,7 @@
-![image]([https://github.com/TRRXITTE/XTCASHEnterprise/blob/main/docs/currency.png))
-![Download Count](https://img.shields.io/github/downloads/trrxitte/traaittcash/total.svg)
-![Version](https://img.shields.io/github/v/release/trrxitte/traaittcash)
-
+![image](https://raw.githubusercontent.com/TRRXITTE/traaittXTCASHEnterprise/main/docs/currency.png)  
+![Download Count](https://img.shields.io/github/downloads/TRRXITTE/traaittXTCASH/total.svg)
+![Version](https://img.shields.io/github/v/release/TRRXITTE/traaittXTCASH)
+![GitHub stars](https://img.shields.io/github/stars/TRRXITTE/traaittXTCASH?label=Github%20Stars)
 
 # traaittXTCASH [XTCASH]
 
