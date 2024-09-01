@@ -1,4 +1,4 @@
-<img src="https://github.com/TRRXITTE/XTCASHEnterprise/blob/main/docs/currency.png">
+![image]([https://github.com/TRRXITTE/traaittCASH/blob/master/docs/XTCASH.png](https://github.com/TRRXITTE/XTCASHEnterprise/blob/main/docs/currency.png))
 ![Download Count](https://img.shields.io/github/downloads/trrxitte/traaittcash/total.svg)
 ![Version](https://img.shields.io/github/v/release/trrxitte/traaittcash)
 
