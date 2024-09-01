@@ -14,10 +14,12 @@ Official Website:
 https://traaittXTCASH.com
 
 Explorer Interface:  
-https://interface.traaittcash.com
+https://interface.traaittxtcash.com  
+https://explorer.traaittxtcash.com  
+https://network.traaittxtcash.com  
 
 Mining Pool:  
-https://miningpoolstats.stream/traaittcash
+https://miningpoolstats.stream/traaittxtcash
 
 
 Blockchain Cache API:  
