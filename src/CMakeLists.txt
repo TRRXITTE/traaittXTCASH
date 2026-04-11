@@ -130,11 +130,18 @@ endif ()
 # wants to use filesystem
 add_library(__filesystem INTERFACE)
 
-# Windows works out of the box
-if (APPLE)
-    target_link_libraries(__filesystem INTERFACE /usr/local/opt/llvm/lib/libc++fs.a)
-elseif (UNIX)
-    target_link_libraries(__filesystem INTERFACE stdc++fs)
+# Windows and Apple work out of the box (Apple ships libc++ with full filesystem support)
+if (UNIX AND NOT APPLE)
+    include(CheckCXXSourceCompiles)
+    set(CMAKE_REQUIRED_LIBRARIES stdc++fs)
+    check_cxx_source_compiles("
+        #include <filesystem>
+        int main() { return std::filesystem::exists(\".\") ? 0 : 0; }
+    " HAVE_STDCXXFS)
+    unset(CMAKE_REQUIRED_LIBRARIES)
+    if (HAVE_STDCXXFS)
+        target_link_libraries(__filesystem INTERFACE stdc++fs)
+    endif ()
 endif ()
 
 if (MSVC)

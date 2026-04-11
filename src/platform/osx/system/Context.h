@@ -27,6 +27,58 @@ extern "C"
 
     extern void setmcontext(const mctx *);
 
+#ifdef __aarch64__
+
+    /* arm64 mcontext layout.
+     * Offsets must exactly match the constants used in asm.s.
+     */
+    struct mcontext
+    {
+        long mc_onstack; /* offset   0 */
+        long mc_x0;      /* offset   8 */
+        long mc_x1;      /* offset  16 */
+        long mc_x2;      /* offset  24 */
+        long mc_x3;      /* offset  32 */
+        long mc_x4;      /* offset  40 */
+        long mc_x5;      /* offset  48 */
+        long mc_x6;      /* offset  56 — holds first arg / return trick */
+        long mc_x7;      /* offset  64 */
+        long mc_x8;      /* offset  72 */
+        long mc_x9;      /* offset  80 */
+        long mc_x10;     /* offset  88 */
+        long mc_x11;     /* offset  96 */
+        long mc_x12;     /* offset 104 */
+        long mc_x13;     /* offset 112 */
+        long mc_x14;     /* offset 120 */
+        long mc_spare0;  /* offset 128 */
+        long mc_spare1;  /* offset 136 */
+        long mc_spare2;  /* offset 144 */
+        long mc_spare3;  /* offset 152 */
+        long mc_pc;      /* offset 160 — program counter */
+        long mc_spare4;  /* offset 168 */
+        long mc_spare5;  /* offset 176 */
+        long mc_sp;      /* offset 184 — stack pointer */
+        long mc_x19;     /* offset 192 */
+        long mc_x20;     /* offset 200 */
+        long mc_x21;     /* offset 208 */
+        long mc_x22;     /* offset 216 */
+        long mc_x23;     /* offset 224 */
+        long mc_x24;     /* offset 232 */
+        long mc_x25;     /* offset 240 */
+        long mc_x26;     /* offset 248 */
+        long mc_x27;     /* offset 256 */
+        long mc_x28;     /* offset 264 */
+        long mc_x29;     /* offset 272 — frame pointer */
+        long mc_x30;     /* offset 280 — link register */
+    };
+
+    /* Aliases so the C code (makecontext, swapcontext) can use the same names */
+    #define mc_rdi mc_x6   /* first integer argument */
+    #define mc_rip mc_pc
+    #define mc_rsp mc_sp
+
+#else  /* x86_64 */
+
     struct mcontext
     {
         /*
@@ -74,6 +126,8 @@ extern "C"
         long mc_fpstate[64];
         long mc_spare[8];
     };
+
+#endif  /* __aarch64__ / x86_64 */
 
     struct ucontext
     {

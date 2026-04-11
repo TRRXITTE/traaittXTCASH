@@ -1,5 +1,5 @@
 # We need 3.8 for set(CMAKE_CXX_STANDARD 17)
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.8...4.99)
 
 find_program(CCACHE_PROGRAM ccache)
 if (CCACHE_PROGRAM)
@@ -28,7 +28,7 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS 7)
         message(FATAL_ERROR "GCC/G++ 7.0 or greater is required to compile. Please check the README.md for detailed compilation instructions.")
     endif ()
-elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang")
     # Clang 6.0 or higher
     if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS 6)
         message(FATAL_ERROR "Clang 6.0 or greater is required to compile. Please check the README.md for detailed compilation instructions.")
@@ -44,7 +44,7 @@ endif ()
 
 find_package(Threads)
 
-set(VERSION "0.1")
+set(VERSION "0.2")
 
 ## This section describes our general CMake setup options
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -185,7 +185,7 @@ if (NOT MSVC)
     set(C_WARNINGS "-Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -Wno-implicit-fallthrough")
     set(CXX_WARNINGS "-Wno-reorder -Wno-missing-field-initializers")
 
-    if (${CMAKE_SYSTEM_PROCESSOR} STREQUAL "aarch64" OR "${LABEL}" STREQUAL "aarch64")
+    if (${CMAKE_SYSTEM_PROCESSOR} STREQUAL "aarch64" OR ${CMAKE_SYSTEM_PROCESSOR} STREQUAL "arm64" OR "${LABEL}" STREQUAL "aarch64")
         set(MAES_FLAG "")
         set(CRYPTOPP_AARCH64 ON CACHE BOOL FORCE "Tell CryptoPP that we are building for aarch64")
     elseif (${CMAKE_SYSTEM_PROCESSOR} MATCHES "x86_64" AND NOT "${LABEL}" STREQUAL "aarch64")
@@ -199,14 +199,14 @@ if (NOT MSVC)
     if (APPLE)
         if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
             # Need to build against libc++ instead of libstc++ on apple
-            set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -nostdinc++ -I/usr/local/opt/llvm/include/c++/v1 -nodefaultlibs -lc++ -lc++abi -lm -lc -lgcc -lgcc_eh")
+            set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -nostdinc++ -nodefaultlibs -lc++ -lc++abi -lm -lc -lgcc -lgcc_eh")
 
             # Need these flags so gcc OSX works on the cryptopp ASM - https://groups.google.com/forum/#!topic/cryptopp-users/po8yO-vYaac
             set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DCRYPTOPP_CLANG_INTEGRATED_ASSEMBLER=1")
 
-        elseif (CMAKE_C_COMPILER_ID STREQUAL "Clang")
-            # Need to link against the llvm libc++ library, default is too old for std::filesystem
-            set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++ -I/usr/local/opt/llvm/include/c++/v1")
+        elseif (CMAKE_C_COMPILER_ID STREQUAL "Clang" OR CMAKE_C_COMPILER_ID STREQUAL "AppleClang")
+            # Use system libc++ (Apple's libc++ ships with full std::filesystem support)
+            set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
         endif ()
     endif ()
 
@@ -249,7 +249,7 @@ endif ()
 set(Boost_NO_BOOST_CMAKE ON)
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_STATIC_RUNTIME ON)
-find_package(Boost REQUIRED COMPONENTS system thread date_time chrono serialization)
+find_package(Boost REQUIRED COMPONENTS thread date_time chrono serialization)
 message(STATUS "Boost Found: ${Boost_INCLUDE_DIRS}")
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 if (APPLE)
@@ -301,8 +301,26 @@ add_subdirectory(src)
 
 ## We need to setup the RocksDB build environment to match our system
 if (NOT MSVC)
-    execute_process(
-            COMMAND cmake ${CMAKE_CURRENT_SOURCE_DIR}/external/rocksdb -DARCH=${ARCH} -DWITH_ZSTD=${WITH_ZSTD} -DWITH_LZ4=${WITH_LZ4} -DWITH_GFLAGS=0 -DCMAKE_BUILD_TYPE=MinSizeRel -DWITH_TESTS=OFF -DWITH_TOOLS=OFF -DPORTABLE=ON -B${PROJECT_BINARY_DIR}/rocksdb
+    set(ROCKSDB_CMAKE_ARGS
+        ${CMAKE_CURRENT_SOURCE_DIR}/external/rocksdb
+        -DARCH=${ARCH}
+        -DWITH_ZSTD=${WITH_ZSTD}
+        -DWITH_LZ4=${WITH_LZ4}
+        -DWITH_GFLAGS=0
+        -DCMAKE_BUILD_TYPE=MinSizeRel
+        -DWITH_TESTS=OFF
+        -DWITH_TOOLS=OFF
+        -DPORTABLE=ON
+        -B${PROJECT_BINARY_DIR}/rocksdb
+        -DCMAKE_C_COMPILER=${CMAKE_C_COMPILER}
+        -DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER}
     )
+    if (APPLE AND DEFINED CMAKE_OSX_ARCHITECTURES)
+        list(APPEND ROCKSDB_CMAKE_ARGS -DCMAKE_OSX_ARCHITECTURES=${CMAKE_OSX_ARCHITECTURES})
+    endif ()
+    if (APPLE AND DEFINED CMAKE_OSX_DEPLOYMENT_TARGET)
+        list(APPEND ROCKSDB_CMAKE_ARGS -DCMAKE_OSX_DEPLOYMENT_TARGET=${CMAKE_OSX_DEPLOYMENT_TARGET})
+    endif ()
+    execute_process(COMMAND cmake ${ROCKSDB_CMAKE_ARGS})
     set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${PROJECT_BINARY_DIR}/rocksdb/librocksdb.a")
 endif ()

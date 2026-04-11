@@ -1,0 +1,126 @@
+name: macOS arm64 Build, Sign & Notarize
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  release:
+    types: [ created ]
+
+jobs:
+  build:
+    name: Build macOS arm64
+    runs-on: macos-14   # native Apple Silicon runner
+
+    env:
+      BUILD_DIR: build-macos-arm64
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install dependencies
+        run: |
+          brew install boost openssl cmake ninja
+          echo "OPENSSL_ROOT_DIR=$(brew --prefix openssl)" >> $GITHUB_ENV
+
+      - name: Configure (CMake + Ninja)
+        run: |
+          cmake -S . -B $BUILD_DIR \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_OSX_ARCHITECTURES=arm64 \
+            -DCMAKE_OSX_DEPLOYMENT_TARGET=12.0 \
+            -DARCH=default \
+            -DSTATIC=ON \
+            -DOPENSSL_ROOT_DIR=${{ env.OPENSSL_ROOT_DIR }}
+
+      - name: Build
+        run: cmake --build $BUILD_DIR --parallel $(sysctl -n hw.logicalcpu)
+
+      - name: Collect binaries
+        run: |
+          mkdir -p dist-arm64
+          for bin in XTCASHnetwork cmdwallet cmdwalletbeta XTCASHservice XTCASHwalletapi MINER walletupgrader cryptotest; do
+            if [ -f "$BUILD_DIR/$bin" ]; then
+              cp "$BUILD_DIR/$bin" dist-arm64/
+            fi
+          done
+          ls -lh dist-arm64/
+
+      - name: Verify architectures
+        run: |
+          for f in dist-arm64/*; do
+            echo -n "$f: "
+            lipo -archs "$f" 2>/dev/null || file "$f"
+          done
+
+      # ── Code signing (release events only, requires secrets) ──────────────
+      - name: Import signing certificate
+        if: github.event_name == 'release'
+        env:
+          MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
+          MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
+        run: |
+          KEYCHAIN_PATH=$RUNNER_TEMP/build.keychain
+          security create-keychain -p "" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "" "$KEYCHAIN_PATH"
+          echo "$MACOS_CERT_BASE64" | base64 --decode > $RUNNER_TEMP/cert.p12
+          security import $RUNNER_TEMP/cert.p12 -k "$KEYCHAIN_PATH" \
+            -P "$MACOS_CERT_PASSWORD" -T /usr/bin/codesign
+          security list-keychain -d user -s "$KEYCHAIN_PATH"
+          security set-key-partition-list -S apple-tool:,apple: -s -k "" "$KEYCHAIN_PATH"
+
+      - name: Sign binaries
+        if: github.event_name == 'release'
+        env:
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+        run: |
+          for bin in dist-arm64/*; do
+            codesign --force --options runtime --timestamp \
+              --sign "$APPLE_SIGNING_IDENTITY" "$bin"
+            codesign --verify --verbose "$bin"
+          done
+
+      - name: Create DMG for notarization
+        if: github.event_name == 'release'
+        run: |
+          hdiutil create -volname "traaittXTCASH-arm64" \
+            -srcfolder dist-arm64 \
+            -ov -format UDZO \
+            traaittXTCASH-macos-arm64.dmg
+
+      - name: Notarize DMG
+        if: github.event_name == 'release'
+        env:
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+        run: |
+          xcrun notarytool submit traaittXTCASH-macos-arm64.dmg \
+            --apple-id "$APPLE_ID" \
+            --team-id "$APPLE_TEAM_ID" \
+            --password "$APPLE_APP_PASSWORD" \
+            --wait
+
+      - name: Staple DMG
+        if: github.event_name == 'release'
+        run: xcrun stapler staple traaittXTCASH-macos-arm64.dmg
+
+      # ── Artifacts ────────────────────────────────────────────────────────
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: traaittXTCASH-macos-arm64
+          path: dist-arm64/
+          retention-days: 30
+
+      - name: Upload DMG to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: traaittXTCASH-macos-arm64.dmg

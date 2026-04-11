@@ -9,9 +9,24 @@
 
 void makecontext(uctx *ucp, void (*func)(void), intptr_t arg)
 {
+    memset(&ucp->uc_mcontext, 0, sizeof ucp->uc_mcontext);
+
+#ifdef __aarch64__
+    /* Store arg in mc_x6 (offset 56). setmcontext loads it into x0 before
+     * branching, so it becomes the first argument register. */
+    ucp->uc_mcontext.mc_x6 = (long)arg;
+
+    /* Align stack to 16 bytes. No return-address slot needed on arm64 because
+     * setmcontext uses 'br' (not 'blr'), so lr is not touched on entry. */
+    long *sp = (long *)ucp->uc_stack.ss_sp + ucp->uc_stack.ss_size / sizeof(long);
+    sp = (long *)((uintptr_t)sp & ~(uintptr_t)15);
+
+    ucp->uc_mcontext.mc_pc  = (long)func;
+    ucp->uc_mcontext.mc_sp  = (long)sp;
+#else
+    /* x86_64 */
     long *sp;
 
-    memset(&ucp->uc_mcontext, 0, sizeof ucp->uc_mcontext);
     ucp->uc_mcontext.mc_rdi = (long)arg;
     sp = (long *)ucp->uc_stack.ss_sp + ucp->uc_stack.ss_size / sizeof(long);
     sp -= 1;
@@ -19,6 +34,7 @@ void makecontext(uctx *ucp, void (*func)(void), intptr_t arg)
     *--sp = 0; /* return address */
     ucp->uc_mcontext.mc_rip = (long)func;
     ucp->uc_mcontext.mc_rsp = (long)sp;
+#endif
 }
 
 int swapcontext(uctx *oucp, const uctx *ucp)

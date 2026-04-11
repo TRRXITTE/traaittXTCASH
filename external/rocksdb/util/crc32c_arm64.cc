@@ -5,13 +5,27 @@
 
 #include "util/crc32c_arm64.h"
 
-#if defined(__linux__) && defined(HAVE_ARM64_CRC)
+#if (defined(__linux__) || defined(__APPLE__)) && defined(HAVE_ARM64_CRC)
 
+#ifdef __linux__
+/* Linux: probe at runtime via getauxval */
 #include <asm/hwcap.h>
 #include <sys/auxv.h>
 #ifndef HWCAP_CRC32
 #define HWCAP_CRC32 (1 << 7)
 #endif
+
+uint32_t crc32c_runtime_check(void) {
+  uint64_t auxv = getauxval(AT_HWCAP);
+  return (auxv & HWCAP_CRC32) != 0;
+}
+
+#else  /* __APPLE__ */
+/* Apple Silicon always supports CRC32 and crypto extensions */
+uint32_t crc32c_runtime_check(void) {
+  return 1;
+}
+#endif  /* __linux__ / __APPLE__ */
 
 #ifdef HAVE_ARM64_CRYPTO
 /* unfolding to compute 8 * 3 = 24 bytes parallelly */
@@ -31,11 +45,6 @@
   CRC32C24BYTES((ITR)*7+6) \
 } while(0)
 #endif
-
-uint32_t crc32c_runtime_check(void) {
-  uint64_t auxv = getauxval(AT_HWCAP);
-  return (auxv & HWCAP_CRC32) != 0;
-}
 
 uint32_t crc32c_arm64(uint32_t crc, unsigned char const *data,
                              unsigned len) {
@@ -58,19 +67,10 @@ uint32_t crc32c_arm64(uint32_t crc, unsigned char const *data,
     uint64_t t0, t1;
     uint32_t crc0 = 0, crc1 = 0, crc2 = 0;
 
-    /* Parallel Param:
-     *   k0 = CRC32(x ^ (42 * 8 * 8 * 2 - 1));
-     *   k1 = CRC32(x ^ (42 * 8 * 8 - 1));
-     */
     uint32_t k0 = 0xe417f38a, k1 = 0x8f158014;
 
-    /* First 8 bytei for better pipelining */
     crc0 = crc32c_u64(crc, *buf64++);
 
-    /* 3 blocks crc32c parallel computation
-     * Macro unfolding to compute parallelly
-     * 168 * 6 = 1008 (bytes)
-     */
     CRC32C7X24BYTES(0);
     CRC32C7X24BYTES(1);
     CRC32C7X24BYTES(2);
@@ -79,13 +79,11 @@ uint32_t crc32c_arm64(uint32_t crc, unsigned char const *data,
     CRC32C7X24BYTES(5);
     buf64 += (BLK_LENGTH * 3);
 
-    /* Last 8 bytes */
     crc = crc32c_u64(crc2, *buf64++);
 
     t0 = (uint64_t)vmull_p64(crc0, k0);
     t1 = (uint64_t)vmull_p64(crc1, k1);
 
-    /* Merge (crc0, crc1, crc2) -> crc */
     crc1 = crc32c_u64(0, t1);
     crc ^= crc1;
     crc0 = crc32c_u64(0, t0);
@@ -104,7 +102,6 @@ uint32_t crc32c_arm64(uint32_t crc, unsigned char const *data,
     length -= 8;
   }
 
-  /* The following is more efficient than the straight loop */
   if (length >= 4) {
     crc = crc32c_u32(crc, *(const uint32_t*)buf8);
     buf8 += 4;
@@ -124,4 +121,4 @@ uint32_t crc32c_arm64(uint32_t crc, unsigned char const *data,
   return crc;
 }
 
-#endif
+#endif  /* (__linux__ || __APPLE__) && HAVE_ARM64_CRC */

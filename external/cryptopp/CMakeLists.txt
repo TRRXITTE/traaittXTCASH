@@ -35,7 +35,7 @@ endif()
 # Print useful information
 message( STATUS "CMake version ${CMAKE_VERSION}" )
 
-cmake_minimum_required(VERSION 2.8.6)
+cmake_minimum_required(VERSION 3.5...4.99)
 if (${CMAKE_VERSION} VERSION_LESS "3.0.0")
   project(cryptopp)
   set(cryptopp_VERSION_MAJOR 8)
@@ -303,7 +303,7 @@ DumpMachine(CRYPTOPP_MINGW32 "\\<mingw32\\>")
 DumpMachine(CRYPTOPP_MINGW64 "w64-mingw32|mingw64")
 DumpMachine(CRYPTOPP_X32 "x32")
 DumpMachine(CRYPTOPP_AARCH32 "Aarch32")
-DumpMachine(CRYPTOPP_AARCH64 "Aarch64")
+DumpMachine(CRYPTOPP_AARCH64 "Aarch64|arm64")
 DumpMachine(CRYPTOPP_ARMHF "armhf|arm7l|eabihf")
 DumpMachine(CRYPTOPP_ARM "\\<arm\\>")
 

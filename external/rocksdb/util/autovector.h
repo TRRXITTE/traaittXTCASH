@@ -125,7 +125,11 @@ class autovector {
       return (*vect_)[index_];
     }
 
-    const_reference operator*() const {
+    // Iterator constness ≠ element constness for mutable iterators.
+    // The const overload must still return a mutable reference so that
+    // std::sort (which takes iterators by const reference internally in
+    // modern libc++) can assign through them.
+    reference operator*() const {
       assert(vect_->size() >= index_);
       return (*vect_)[index_];
     }
@@ -135,7 +139,7 @@ class autovector {
       return &(*vect_)[index_];
     }
 
-    const_pointer operator->() const {
+    pointer operator->() const {
       assert(vect_->size() >= index_);
       return &(*vect_)[index_];
     }

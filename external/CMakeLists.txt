@@ -20,11 +20,12 @@ if (MSVC)
     set_property(TARGET upnpc-static cryptopp-static rocksdb zstd lz4 argon2 PROPERTY FOLDER "external")
 elseif (NOT MSVC)
     set_property(TARGET upnpc-static cryptopp-static zstd lz4 argon2 PROPERTY FOLDER "external")
-    add_custom_target(
-            rocksdb
-            COMMAND $(MAKE) rocksdb
+    add_custom_command(
+            OUTPUT ${PROJECT_BINARY_DIR}/rocksdb/librocksdb.a
+            COMMAND ${CMAKE_COMMAND} --build . --target rocksdb
             WORKING_DIRECTORY ${PROJECT_BINARY_DIR}/rocksdb
     )
+    add_custom_target(rocksdb DEPENDS ${PROJECT_BINARY_DIR}/rocksdb/librocksdb.a)
     add_library(rocksdblib STATIC IMPORTED GLOBAL)
     set_target_properties(rocksdblib PROPERTIES IMPORTED_LOCATION ${PROJECT_BINARY_DIR}/rocksdb/librocksdb.a)
     add_dependencies(rocksdblib rocksdb)

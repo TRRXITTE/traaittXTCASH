@@ -1,3 +1,56 @@
+# Build directories (root-level only)
+/build/
+/build-*/
+/cmake-build-*/
+
+# Release artifacts
+dist-*/
+*.zip
+*.dmg
+*.tar.gz
+*.tar.bz2
+*.sha256
+*.md5
+*.sha512
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_CPack_Packages/
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
 # Prerequisites
 *.d
 
@@ -30,5 +83,13 @@
 *.exe
 *.out
 *.app
-.DS_Store
-build/
+
+# Compiled binaries (top-level)
+XTCASHnetwork
+cmdwallet
+cmdwalletbeta
+XTCASHservice
+XTCASHwalletapi
+MINER
+walletupgrader
+cryptotest
