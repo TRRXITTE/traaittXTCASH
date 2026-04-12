@@ -390,10 +390,7 @@ jobs:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          printf '%s' "$GPG_PRIVATE_KEY" \
-            | tr -d '[:space:]' \
-            | base64 --decode \
-            | gpg --batch --yes --import
+          printf '%s' "$GPG_PRIVATE_KEY" | gpg --batch --yes --import
           echo "${GPG_FINGERPRINT}:6:" | gpg --import-ownertrust
 
       - name: GPG-sign all artifacts
