@@ -6,6 +6,7 @@
 #include <zedwallet/Tools.h>
 ////////////////////////////
 
+#include <chrono>
 #include <cmath>
 #include <common/Base58.h>
 #include <common/CryptoNoteTools.h>
@@ -15,6 +16,7 @@
 #include <cryptonotecore/CryptoNoteBasicImpl.h>
 #include <fstream>
 #include <iostream>
+#include <thread>
 #include <utilities/Addresses.h>
 #include <utilities/ColouredMsg.h>
 #include <utilities/PasswordContainer.h>

@@ -10,9 +10,11 @@
 #include "rpc/CoreRpcServerCommandsDefinitions.h"
 #include "rpc/JsonRpc.h"
 
+#include <chrono>
 #include <system/EventLock.h>
 #include <system/InterruptedException.h>
 #include <system/Timer.h>
+#include <thread>
 #include <utilities/ColouredMsg.h>
 
 using json = nlohmann::json;

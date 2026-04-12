@@ -7,6 +7,7 @@
 ////////////////////////////////
 
 #include <atomic>
+#include <chrono>
 #include <common/Base58.h>
 #include <config/CryptoNoteConfig.h>
 #include <thread>

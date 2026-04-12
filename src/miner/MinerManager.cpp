@@ -8,11 +8,13 @@
 #include "MinerManager.h"
 /////////////////////////
 
+#include <chrono>
 #include <common/CryptoNoteTools.h>
 #include <common/StringTools.h>
 #include <common/TransactionExtra.h>
 #include <config/CryptoNoteConfig.h>
 #include <miner/BlockUtilities.h>
+#include <thread>
 #include <utilities/ColouredMsg.h>
 #include <utilities/FormatTools.h>
 

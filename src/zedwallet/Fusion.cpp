@@ -6,8 +6,10 @@
 #include <zedwallet/Fusion.h>
 /////////////////////////////
 
+#include <chrono>
 #include <config/CryptoNoteConfig.h>
 #include <config/WalletConfig.h>
+#include <thread>
 #include <utilities/ColouredMsg.h>
 #include <wallet/WalletGreen.h>
 #include <wallet/WalletUtils.h>

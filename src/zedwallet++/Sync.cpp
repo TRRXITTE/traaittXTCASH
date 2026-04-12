@@ -6,6 +6,7 @@
 #include <zedwallet++/Sync.h>
 /////////////////////////////
 
+#include <chrono>
 #include <common/SignalHandler.h>
 #include <config/WalletConfig.h>
 #include <iostream>

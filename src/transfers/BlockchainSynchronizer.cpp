@@ -11,9 +11,11 @@
 #include "cryptonotecore/CryptoNoteFormatUtils.h"
 #include "cryptonotecore/TransactionApi.h"
 
+#include <chrono>
 #include <functional>
 #include <iostream>
 #include <sstream>
+#include <thread>
 #include <unordered_set>
 
 using namespace Common;

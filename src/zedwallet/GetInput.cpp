@@ -8,6 +8,9 @@
 
 #include "linenoise.hpp"
 
+#include <chrono>
+#include <thread>
+
 #include <zedwallet/Sync.h>
 #include <zedwallet/Tools.h>
 

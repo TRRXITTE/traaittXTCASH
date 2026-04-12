@@ -6,7 +6,9 @@
 #include <zedwallet++/Fusion.h>
 ///////////////////////////////
 
+#include <chrono>
 #include <iostream>
+#include <thread>
 #include <utilities/ColouredMsg.h>
 #include <utilities/FormatTools.h>
 #include <walletbackend/WalletBackend.h>

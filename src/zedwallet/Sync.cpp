@@ -6,8 +6,10 @@
 #include <zedwallet/Sync.h>
 ///////////////////////////
 
+#include <chrono>
 #include <common/StringTools.h>
 #include <config/WalletConfig.h>
+#include <thread>
 #include <utilities/ColouredMsg.h>
 #include <zedwallet/CommandImplementations.h>
 #include <zedwallet/GetInput.h>

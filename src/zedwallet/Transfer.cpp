@@ -8,6 +8,7 @@
 
 #include "WalletGreenTypes.h"
 
+#include <chrono>
 #include <common/Base58.h>
 #include <common/CryptoNoteTools.h>
 #include <common/StringTools.h>
@@ -22,6 +23,7 @@
 #include <wallet/WalletErrors.h>
 #include <wallet/WalletGreen.h>
 #include <wallet/WalletUtils.h>
+#include <thread>
 #include <zedwallet/Fusion.h>
 #include <zedwallet/Tools.h>
 
