@@ -8,6 +8,7 @@
 #include "DataBaseErrors.h"
 #include "rocksdb/cache.h"
 #include "rocksdb/db.h"
+#include "rocksdb/filter_policy.h"
 #include "rocksdb/table.h"
 #include "rocksdb/utilities/backupable_db.h"
 
@@ -194,29 +195,30 @@ rocksdb::Options RocksDBWrapper::getDBOptions(const DataBaseConfig &config)
     dbOptions.IncreaseParallelism(config.getBackgroundThreadsCount());
     dbOptions.info_log_level = rocksdb::InfoLogLevel::WARN_LEVEL;
     dbOptions.max_open_files = config.getMaxOpenFiles();
+    // Allow concurrent memtable writes for higher write throughput during sync
+    dbOptions.allow_concurrent_memtable_write = true;
+    dbOptions.enable_write_thread_adaptive_yield = true;
+    // Keep more log files to reduce WAL rotation overhead
+    dbOptions.keep_log_file_num = 5;
 
     rocksdb::ColumnFamilyOptions fOptions;
     fOptions.write_buffer_size = static_cast<size_t>(config.getWriteBufferSize());
-    // merge two memtables when flushing to L0
+    // Merge two memtables when flushing to L0
     fOptions.min_write_buffer_number_to_merge = 2;
-    // this means we'll use 50% extra memory in the worst case, but will reduce
-    // write stalls.
-    fOptions.max_write_buffer_number = 6;
-    // start flushing L0->L1 as soon as possible. each file on level0 is
-    // (memtable_memory_budget / 2). This will flush level 0 when it's bigger than
-    // memtable_memory_budget.
-    fOptions.level0_file_num_compaction_trigger = 20;
+    // More write buffers reduces write stalls during heavy sync
+    fOptions.max_write_buffer_number = 8;
+    // Start L0->L1 compaction sooner to keep read performance up
+    fOptions.level0_file_num_compaction_trigger = 8;
+    fOptions.level0_slowdown_writes_trigger = 20;
+    fOptions.level0_stop_writes_trigger = 30;
 
-    fOptions.level0_slowdown_writes_trigger = 30;
-    fOptions.level0_stop_writes_trigger = 40;
-
-    // doesn't really matter much, but we don't want to create too many files
-    fOptions.target_file_size_base = config.getWriteBufferSize() / 10;
-    // make Level1 size equal to Level0 size, so that L0->L1 compactions are fast
+    // Larger SST files reduce file count and metadata overhead
+    fOptions.target_file_size_base = config.getWriteBufferSize() / 8;
+    // Make Level1 size equal to Level0 size so L0->L1 compactions are fast
     fOptions.max_bytes_for_level_base = config.getWriteBufferSize();
     fOptions.num_levels = 10;
     fOptions.target_file_size_multiplier = 2;
-    // level style compaction
+    // Level style compaction
     fOptions.compaction_style = rocksdb::kCompactionStyleLevel;
 
     fOptions.compression_per_level.resize(fOptions.num_levels);
@@ -224,15 +226,20 @@ rocksdb::Options RocksDBWrapper::getDBOptions(const DataBaseConfig &config)
     const auto compressionLevel = config.getCompressionEnabled() ? rocksdb::kZSTD : rocksdb::kNoCompression;
     for (int i = 0; i < fOptions.num_levels; ++i)
     {
-        // don't compress l0 & l1
+        // Don't compress L0 & L1 for faster sync writes
         fOptions.compression_per_level[i] = (i < 2 ? rocksdb::kNoCompression : compressionLevel);
     }
-    // bottom most use kZSTD
     fOptions.bottommost_compression =
         config.getCompressionEnabled() ? rocksdb::kZSTD : rocksdb::kNoCompression;
 
     rocksdb::BlockBasedTableOptions tableOptions;
     tableOptions.block_cache = rocksdb::NewLRUCache(config.getReadCacheSize());
+    // Bloom filter cuts point-lookup I/O by ~10x — big win for block/tx lookups
+    tableOptions.filter_policy.reset(rocksdb::NewBloomFilterPolicy(10, false));
+    tableOptions.cache_index_and_filter_blocks = true;
+    tableOptions.pin_l0_filter_and_index_blocks_in_cache = true;
+    // Larger block size reduces index overhead for sequential scan during sync
+    tableOptions.block_size = 16 * 1024; // 16 KB (default is 4 KB)
     std::shared_ptr<rocksdb::TableFactory> tfp(NewBlockBasedTableFactory(tableOptions));
     fOptions.table_factory = tfp;
 
