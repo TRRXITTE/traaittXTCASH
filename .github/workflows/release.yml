@@ -327,7 +327,10 @@ jobs:
         shell: pwsh
         run: |
           C:\vcpkg\vcpkg.exe install `
-            boost-thread boost-date-time boost-chrono boost-serialization boost-uuid `
+            boost-thread boost-date-time boost-chrono boost-serialization `
+            boost-uuid boost-multi-index boost-variant boost-optional `
+            boost-algorithm boost-range boost-functional boost-utility `
+            boost-iterator boost-scope-exit boost-format boost-foreach boost-integer `
             openssl --triplet x64-windows-static
 
       - name: Configure
