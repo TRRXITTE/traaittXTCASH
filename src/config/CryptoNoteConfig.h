@@ -172,7 +172,7 @@ namespace CryptoNote
          * be created in a transaction */
         const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100'000'000'000'00;
 
-        const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
+        const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1830000;
 
         /* For new projects forked from this code base, the values immediately below
            should be changed to 0 to prevent issues with transaction processing
