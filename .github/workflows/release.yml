@@ -420,9 +420,9 @@ jobs:
           for f in *.dmg *.tar.gz *.zip; do
             [ -f "$f" ] || continue
             gpg --batch --yes --pinentry-mode loopback \
-              --passphrase-fd 0 \
+              --passphrase "$GPG_PASSPHRASE" \
               --local-user "${GPG_FINGERPRINT}" \
-              --detach-sign --armor "$f" <<< "$GPG_PASSPHRASE"
+              --detach-sign --armor "$f"
             echo "Signed: $f"
           done
 
