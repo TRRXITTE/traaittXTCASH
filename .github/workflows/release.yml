@@ -69,6 +69,7 @@ jobs:
 
       - name: Import certificate
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
           MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
@@ -85,6 +86,7 @@ jobs:
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
         run: |
@@ -102,6 +104,7 @@ jobs:
 
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
@@ -157,6 +160,7 @@ jobs:
 
       - name: Import certificate
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
           MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
@@ -173,6 +177,7 @@ jobs:
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
         run: |
@@ -189,6 +194,7 @@ jobs:
 
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        continue-on-error: true
         env:
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
@@ -423,8 +429,8 @@ jobs:
 
           | Artifact | Platform |
           |----------|----------|
-          | \`traaittXTCASH-macos-arm64.dmg\` | macOS Apple Silicon (arm64), signed & notarized |
-          | \`traaittXTCASH-macos-x86_64.dmg\` | macOS Intel (x86_64), signed & notarized |
+          | \`traaittXTCASH-macos-arm64.dmg\` | macOS Apple Silicon (arm64) |
+          | \`traaittXTCASH-macos-x86_64.dmg\` | macOS Intel (x86_64) |
           | \`traaittXTCASH-linux-x86_64.tar.gz\` | Linux x86_64 (static) |
           | \`traaittXTCASH-linux-aarch64.tar.gz\` | Linux ARM64 (static) |
           | \`traaittXTCASH-windows-x86_64.zip\` | Windows x86_64 |
