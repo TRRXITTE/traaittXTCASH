@@ -404,35 +404,6 @@ jobs:
           path: artifacts
           merge-multiple: true
 
-      - name: Import GPG key
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-        run: |
-          printf '%s' "$GPG_PRIVATE_KEY" | gpg --batch --yes --import
-          echo "${GPG_FINGERPRINT}:6:" | gpg --import-ownertrust
-
-      - name: GPG-sign all artifacts
-        env:
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-        run: |
-          PASSFILE=$(mktemp)
-          chmod 600 "$PASSFILE"
-          printf '%s' "$GPG_PASSPHRASE" > "$PASSFILE"
-          cd artifacts
-          for f in *.dmg *.tar.gz *.zip; do
-            [ -f "$f" ] || continue
-            gpg --batch --yes --pinentry-mode loopback \
-              --passphrase-file "$PASSFILE" \
-              --local-user "${GPG_FINGERPRINT}" \
-              --detach-sign --armor "$f"
-            echo "Signed: $f"
-          done
-          rm -f "$PASSFILE"
-
-      - name: Copy release public key
-        run: cp trrxitte-release-key.asc artifacts/
-
       - name: Generate SHA256 checksums
         run: |
           cd artifacts
@@ -462,28 +433,6 @@ jobs:
 
           ---
 
-          ### GPG Verification
-
-          All artifacts are signed with the TRRXITTE release key (\`trrxitte-release-key.asc\`).
-
-          **Fingerprint:** \`9A9F 4ABE 01A7 CC6D 0474  035D 7530 2358 8E03 0016\`
-          **Identity:** TRRXITTE Int., incorporate \`<integration@trrxitte.com>\`
-          **Algorithm:** RSA 4096-bit
-
-          \`\`\`bash
-          # Import the release key
-          gpg --import trrxitte-release-key.asc
-
-          # Verify an artifact (example: Linux x86_64)
-          gpg --verify traaittXTCASH-linux-x86_64.tar.gz.asc \
-                       traaittXTCASH-linux-x86_64.tar.gz
-
-          # Verify checksums
-          sha256sum --check SHA256SUMS.txt
-          \`\`\`
-
-          ---
-
           ### SHA256 Checksums
 
           \`\`\`
@@ -502,10 +451,6 @@ jobs:
           generate_release_notes: false
           files: |
             artifacts/*.dmg
-            artifacts/*.dmg.asc
             artifacts/*.tar.gz
-            artifacts/*.tar.gz.asc
             artifacts/*.zip
-            artifacts/*.zip.asc
-            artifacts/trrxitte-release-key.asc
             artifacts/SHA256SUMS.txt
