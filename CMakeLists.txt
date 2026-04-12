@@ -248,8 +248,9 @@ endif ()
 ## Go get us some static BOOST libraries
 set(Boost_NO_BOOST_CMAKE ON)
 set(Boost_USE_STATIC_LIBS ON)
-# Homebrew on macOS does not ship static-runtime Boost variants; disable on Apple
-if (NOT APPLE)
+# Static-runtime Boost variants are only meaningful for MSVC. Ubuntu packages
+# provide static Boost libs with the shared runtime, so keep this off there.
+if (MSVC)
     set(Boost_USE_STATIC_RUNTIME ON)
 endif ()
 find_package(Boost REQUIRED COMPONENTS thread date_time chrono serialization)
