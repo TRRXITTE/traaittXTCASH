@@ -328,16 +328,16 @@ namespace CryptoNote
     const size_t P2P_CONNECTION_MAX_WRITE_BUFFER_SIZE = 64 * 1024 * 1024; // 64 MB (was 32 MB)
     const uint32_t P2P_DEFAULT_CONNECTIONS_COUNT = 12; // more parallel peers (was 8)
 
-    const size_t P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT = 70;
+    const size_t P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT = 50; // was 70 — lower threshold helps initial sync when whitelist peers are sparse
 
     const uint32_t P2P_DEFAULT_HANDSHAKE_INTERVAL = 60; // seconds
     const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 100000000; // 50000000 bytes maximum packet size
     const uint32_t P2P_DEFAULT_PEERS_IN_HANDSHAKE = 250;
 
-    const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 5000; // 5 seconds
-    const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2000; // 2 seconds
+    const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 10000; // 10 seconds (was 5s — too short for distant peers)
+    const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 3000; // 3 seconds
     const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT = 60 * 2 * 1000; // 2 minutes
-    const size_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 5000; // 5 seconds
+    const size_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 15000; // 15 seconds (was 5s)
     const char P2P_STAT_TRUSTED_PUB_KEY[] = "";
 
     const uint64_t DATABASE_WRITE_BUFFER_MB_DEFAULT_SIZE = 512; // 512 MB (was 256 MB) — fewer L0 flushes during sync
@@ -345,9 +345,9 @@ namespace CryptoNote
     const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 512; // 512 files (was 125) — avoids fd thrashing
     const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 8; // 8 DB threads (was 4) — faster compaction
 
-    const char LATEST_VERSION_URL[] = "https://traaitcash.com/cmd-latest";
+    const char LATEST_VERSION_URL[] = "https://traaittxtcash.com/cmd-latest";
 
-    const std::string LICENSE_URL = "https://traaittcash.com/LICENSE";
+    const std::string LICENSE_URL = "https://traaittxtcash.com/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
         {0xb8, 0x4c, 0x1a, 0x1c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};

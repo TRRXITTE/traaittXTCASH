@@ -501,6 +501,20 @@ namespace CryptoNote
             return false;
         }
 
+        /* Pre-populate gray peerlist with seed nodes so they are available for
+           actual sync connections on first run. Without this, seed nodes are
+           only used for peer-list bootstrapping (just_take_peerlist=true) and
+           are never contacted for block synchronisation when the received
+           whitelist peers are unreachable. */
+        for (const auto &seedAddr : m_seed_nodes)
+        {
+            PeerlistEntry pe = boost::value_initialized<PeerlistEntry>();
+            pe.adr = seedAddr;
+            pe.last_seen = 0;
+            pe.id = 0;
+            m_peerlist.append_with_peer_gray(pe);
+        }
+
         for (auto &p : m_command_line_peers)
         {
             m_peerlist.append_with_peer_white(p);
