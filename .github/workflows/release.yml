@@ -416,15 +416,19 @@ jobs:
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
+          PASSFILE=$(mktemp)
+          chmod 600 "$PASSFILE"
+          printf '%s' "$GPG_PASSPHRASE" > "$PASSFILE"
           cd artifacts
           for f in *.dmg *.tar.gz *.zip; do
             [ -f "$f" ] || continue
             gpg --batch --yes --pinentry-mode loopback \
-              --passphrase "$GPG_PASSPHRASE" \
+              --passphrase-file "$PASSFILE" \
               --local-user "${GPG_FINGERPRINT}" \
               --detach-sign --armor "$f"
             echo "Signed: $f"
           done
+          rm -f "$PASSFILE"
 
       - name: Copy release public key
         run: cp trrxitte-release-key.asc artifacts/
