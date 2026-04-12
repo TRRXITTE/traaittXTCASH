@@ -45,8 +45,8 @@ jobs:
         run: |
           mkdir -p dist-arm64
           for bin in XTCASHnetwork cmdwallet cmdwalletbeta XTCASHservice XTCASHwalletapi MINER walletupgrader cryptotest; do
-            if [ -f "$BUILD_DIR/$bin" ]; then
-              cp "$BUILD_DIR/$bin" dist-arm64/
+            if [ -f "$BUILD_DIR/src/$bin" ]; then
+              cp "$BUILD_DIR/src/$bin" dist-arm64/
             fi
           done
           ls -lh dist-arm64/
