@@ -1,37 +1,32 @@
 name: Multi-Platform Release
 
+# Triggers: push a tag v0.10.47 (or any vX.Y.Z) to trigger full build + release
 on:
   push:
     tags: ['v*.*.*']
   workflow_dispatch:
     inputs:
-      sign:
+      sign_macos:
         description: 'Sign and notarize macOS builds'
         type: boolean
         default: false
 
-# ── Shared binary list ────────────────────────────────────────────────────────
 env:
   BINARIES: "XTCASHnetwork cmdwallet cmdwalletbeta XTCASHservice XTCASHwalletapi MINER walletupgrader cryptotest"
+  GPG_FINGERPRINT: "9A9F4ABE01A7CC6D0474035D753023588E030016"
+  GPG_IDENTITY: "TRRXITTE Int., incorporate <integration@trrxitte.com>"
+  GPG_KEY_TYPE: "RSA 4096-bit"
 
+# ─────────────────────────────────────────────────────────────────────────────
 jobs:
-  # ── macOS (arm64 + x86_64) ──────────────────────────────────────────────────
-  build-macos:
-    name: macOS ${{ matrix.arch }}
-    runs-on: ${{ matrix.runner }}
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - runner: macos-14
-            arch: arm64
-          - runner: macos-13
-            arch: x86_64
 
+  # ── macOS arm64 (Apple Silicon) ─────────────────────────────────────────────
+  build-macos-arm64:
+    name: macOS arm64
+    runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
+        with: { submodules: recursive }
 
       - name: Install dependencies
         run: |
@@ -40,49 +35,39 @@ jobs:
 
       - name: Configure
         run: |
-          cmake -S . -B build \
-            -G Ninja \
+          cmake -S . -B build -G Ninja \
             -DCMAKE_BUILD_TYPE=Release \
-            -DCMAKE_OSX_ARCHITECTURES=${{ matrix.arch }} \
+            -DCMAKE_OSX_ARCHITECTURES=arm64 \
             -DCMAKE_OSX_DEPLOYMENT_TARGET=12.0 \
-            -DARCH=default \
-            -DSTATIC=ON \
+            -DARCH=default -DSTATIC=ON \
             -DOPENSSL_ROOT_DIR=${{ env.OPENSSL_ROOT }}
 
       - name: Build
         run: cmake --build build --parallel $(sysctl -n hw.logicalcpu)
 
-      - name: Collect binaries
+      - name: Collect
         run: |
-          mkdir -p dist
-          for bin in $BINARIES; do
-            [ -f "build/src/$bin" ] && cp "build/src/$bin" dist/
-          done
-          echo "Built:" && ls -lh dist/
-
-      - name: Verify arch
-        run: |
+          mkdir dist
+          for b in $BINARIES; do [ -f build/src/$b ] && cp build/src/$b dist/; done
           for f in dist/*; do echo "$f: $(lipo -archs $f)"; done
 
-      # ── Signing ─────────────────────────────────────────────────────────────
-      - name: Import signing certificate
-        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign == 'true'
+      - name: Import certificate
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
           MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
           MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
         run: |
-          KEYCHAIN=$RUNNER_TEMP/build.keychain
-          security create-keychain -p "" "$KEYCHAIN"
-          security set-keychain-settings -lut 21600 "$KEYCHAIN"
-          security unlock-keychain -p "" "$KEYCHAIN"
+          KC=$RUNNER_TEMP/build.keychain
+          security create-keychain -p "" "$KC"
+          security set-keychain-settings -lut 21600 "$KC"
+          security unlock-keychain -p "" "$KC"
           echo "$MACOS_CERT_BASE64" | base64 --decode > $RUNNER_TEMP/cert.p12
-          security import $RUNNER_TEMP/cert.p12 -k "$KEYCHAIN" \
-            -P "$MACOS_CERT_PASSWORD" -T /usr/bin/codesign
-          security list-keychain -d user -s "$KEYCHAIN"
-          security set-key-partition-list -S apple-tool:,apple: -s -k "" "$KEYCHAIN"
+          security import $RUNNER_TEMP/cert.p12 -k "$KC" -P "$MACOS_CERT_PASSWORD" -T /usr/bin/codesign
+          security list-keychain -d user -s "$KC"
+          security set-key-partition-list -S apple-tool:,apple: -s -k "" "$KC"
 
       - name: Sign
-        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign == 'true'
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
           SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
         run: |
@@ -91,118 +76,163 @@ jobs:
             codesign --verify --verbose "$f"
           done
 
-      - name: Create DMG
+      - name: Package DMG
         run: |
-          DMG="traaittXTCASH-macos-${{ matrix.arch }}.dmg"
-          hdiutil create -volname "traaittXTCASH-${{ matrix.arch }}" \
-            -srcfolder dist -ov -format UDZO "$DMG"
-          echo "DMG=$DMG" >> $GITHUB_ENV
+          hdiutil create -volname "traaittXTCASH-arm64" \
+            -srcfolder dist -ov -format UDZO \
+            traaittXTCASH-macos-arm64.dmg
 
-      - name: Notarize DMG
-        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign == 'true'
+      - name: Notarize + Staple
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
           APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
         run: |
-          xcrun notarytool submit "$DMG" \
-            --apple-id "$APPLE_ID" \
-            --team-id "$APPLE_TEAM_ID" \
-            --password "$APPLE_APP_PASSWORD" \
-            --wait
+          xcrun notarytool submit traaittXTCASH-macos-arm64.dmg \
+            --apple-id "$APPLE_ID" --team-id "$APPLE_TEAM_ID" \
+            --password "$APPLE_APP_PASSWORD" --wait
+          xcrun stapler staple traaittXTCASH-macos-arm64.dmg
 
-      - name: Staple DMG
-        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign == 'true'
-        run: xcrun stapler staple "$DMG"
-
-      - name: Checksum
-        run: shasum -a 256 "$DMG" > "$DMG.sha256"
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: traaittXTCASH-macos-${{ matrix.arch }}
-          path: |
-            traaittXTCASH-macos-${{ matrix.arch }}.dmg
-            traaittXTCASH-macos-${{ matrix.arch }}.dmg.sha256
+          name: macos-arm64
+          path: traaittXTCASH-macos-arm64.dmg
+
+  # ── macOS x86_64 (Intel) ────────────────────────────────────────────────────
+  build-macos-x86_64:
+    name: macOS x86_64
+    runs-on: macos-13
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: recursive }
+
+      - name: Install dependencies
+        run: |
+          brew install boost openssl cmake ninja
+          echo "OPENSSL_ROOT=$(brew --prefix openssl)" >> $GITHUB_ENV
+
+      - name: Configure
+        run: |
+          cmake -S . -B build -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_OSX_ARCHITECTURES=x86_64 \
+            -DCMAKE_OSX_DEPLOYMENT_TARGET=11.0 \
+            -DARCH=default -DSTATIC=ON \
+            -DOPENSSL_ROOT_DIR=${{ env.OPENSSL_ROOT }}
+
+      - name: Build
+        run: cmake --build build --parallel $(sysctl -n hw.logicalcpu)
+
+      - name: Collect
+        run: |
+          mkdir dist
+          for b in $BINARIES; do [ -f build/src/$b ] && cp build/src/$b dist/; done
+
+      - name: Import certificate
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        env:
+          MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
+          MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
+        run: |
+          KC=$RUNNER_TEMP/build.keychain
+          security create-keychain -p "" "$KC"
+          security set-keychain-settings -lut 21600 "$KC"
+          security unlock-keychain -p "" "$KC"
+          echo "$MACOS_CERT_BASE64" | base64 --decode > $RUNNER_TEMP/cert.p12
+          security import $RUNNER_TEMP/cert.p12 -k "$KC" -P "$MACOS_CERT_PASSWORD" -T /usr/bin/codesign
+          security list-keychain -d user -s "$KC"
+          security set-key-partition-list -S apple-tool:,apple: -s -k "" "$KC"
+
+      - name: Sign
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        env:
+          SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+        run: |
+          for f in dist/*; do
+            codesign --force --options runtime --timestamp --sign "$SIGNING_IDENTITY" "$f"
+          done
+
+      - name: Package DMG
+        run: |
+          hdiutil create -volname "traaittXTCASH-x86_64" \
+            -srcfolder dist -ov -format UDZO \
+            traaittXTCASH-macos-x86_64.dmg
+
+      - name: Notarize + Staple
+        if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
+        env:
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+        run: |
+          xcrun notarytool submit traaittXTCASH-macos-x86_64.dmg \
+            --apple-id "$APPLE_ID" --team-id "$APPLE_TEAM_ID" \
+            --password "$APPLE_APP_PASSWORD" --wait
+          xcrun stapler staple traaittXTCASH-macos-x86_64.dmg
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos-x86_64
+          path: traaittXTCASH-macos-x86_64.dmg
 
   # ── Linux x86_64 ────────────────────────────────────────────────────────────
   build-linux-x86_64:
     name: Linux x86_64
     runs-on: ubuntu-22.04
-
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
+        with: { submodules: recursive }
 
       - name: Install dependencies
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y \
-            build-essential cmake ninja-build \
+          sudo apt-get install -y build-essential cmake ninja-build \
             libboost-thread-dev libboost-date-time-dev \
-            libboost-chrono-dev libboost-serialization-dev \
-            libssl-dev
+            libboost-chrono-dev libboost-serialization-dev libssl-dev
 
       - name: Configure
         run: |
-          cmake -S . -B build \
-            -G Ninja \
-            -DCMAKE_BUILD_TYPE=Release \
-            -DARCH=default \
-            -DSTATIC=ON
+          cmake -S . -B build -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release -DARCH=default -DSTATIC=ON
 
       - name: Build
         run: cmake --build build --parallel $(nproc)
 
       - name: Package
         run: |
-          mkdir -p dist
-          for bin in $BINARIES; do
-            [ -f "build/src/$bin" ] && cp "build/src/$bin" dist/
-          done
-          ARCHIVE="traaittXTCASH-linux-x86_64.tar.gz"
-          tar -czf "$ARCHIVE" -C dist .
-          shasum -a 256 "$ARCHIVE" > "$ARCHIVE.sha256"
-          echo "ARCHIVE=$ARCHIVE" >> $GITHUB_ENV
+          mkdir dist
+          for b in $BINARIES; do [ -f build/src/$b ] && cp build/src/$b dist/; done
+          tar -czf traaittXTCASH-linux-x86_64.tar.gz -C dist .
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: traaittXTCASH-linux-x86_64
-          path: |
-            traaittXTCASH-linux-x86_64.tar.gz
-            traaittXTCASH-linux-x86_64.tar.gz.sha256
+          name: linux-x86_64
+          path: traaittXTCASH-linux-x86_64.tar.gz
 
   # ── Linux aarch64 (cross-compile) ───────────────────────────────────────────
   build-linux-aarch64:
     name: Linux aarch64
     runs-on: ubuntu-22.04
-
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
+        with: { submodules: recursive }
 
-      - name: Install cross-compile toolchain + deps
+      - name: Install cross-compile toolchain
         run: |
           sudo dpkg --add-architecture arm64
-          # Point amd64 sources explicitly so apt can add arm64 ports
           sudo sed -i 's/^deb http/deb [arch=amd64] http/' /etc/apt/sources.list
           sudo bash -c 'cat >> /etc/apt/sources.list.d/arm64-ports.list <<EOF
           deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports jammy main restricted universe
           deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports jammy-updates main restricted universe
           EOF'
           sudo apt-get update -q
-          sudo apt-get install -y \
-            gcc-aarch64-linux-gnu g++-aarch64-linux-gnu \
-            cmake ninja-build \
+          sudo apt-get install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu cmake ninja-build \
             libboost-thread-dev:arm64 libboost-date-time-dev:arm64 \
             libboost-chrono-dev:arm64 libboost-serialization-dev:arm64 \
             libssl-dev:arm64
 
-      - name: Write CMake toolchain
+      - name: Write toolchain file
         run: |
           cat > toolchain-aarch64.cmake << 'EOF'
           set(CMAKE_SYSTEM_NAME Linux)
@@ -217,12 +247,10 @@ jobs:
 
       - name: Configure
         run: |
-          cmake -S . -B build \
-            -G Ninja \
+          cmake -S . -B build -G Ninja \
             -DCMAKE_BUILD_TYPE=Release \
             -DCMAKE_TOOLCHAIN_FILE=toolchain-aarch64.cmake \
-            -DARCH=default \
-            -DSTATIC=ON \
+            -DARCH=default -DSTATIC=ON \
             -DBoost_INCLUDE_DIR=/usr/include \
             -DBOOST_LIBRARYDIR=/usr/lib/aarch64-linux-gnu \
             -DOPENSSL_ROOT_DIR=/usr/lib/aarch64-linux-gnu \
@@ -233,46 +261,35 @@ jobs:
 
       - name: Package
         run: |
-          mkdir -p dist
-          for bin in $BINARIES; do
-            [ -f "build/src/$bin" ] && cp "build/src/$bin" dist/
-          done
-          ARCHIVE="traaittXTCASH-linux-aarch64.tar.gz"
-          tar -czf "$ARCHIVE" -C dist .
-          shasum -a 256 "$ARCHIVE" > "$ARCHIVE.sha256"
+          mkdir dist
+          for b in $BINARIES; do [ -f build/src/$b ] && cp build/src/$b dist/; done
+          tar -czf traaittXTCASH-linux-aarch64.tar.gz -C dist .
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: traaittXTCASH-linux-aarch64
-          path: |
-            traaittXTCASH-linux-aarch64.tar.gz
-            traaittXTCASH-linux-aarch64.tar.gz.sha256
+          name: linux-aarch64
+          path: traaittXTCASH-linux-aarch64.tar.gz
 
   # ── Windows x86_64 ──────────────────────────────────────────────────────────
-  build-windows:
+  build-windows-x86_64:
     name: Windows x86_64
     runs-on: windows-2022
-
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
+        with: { submodules: recursive }
 
-      - name: Set up vcpkg
+      - name: Set up vcpkg + dependencies
         run: |
           git clone --depth=1 https://github.com/microsoft/vcpkg.git C:\vcpkg
           C:\vcpkg\bootstrap-vcpkg.bat -disableMetrics
-          C:\vcpkg\vcpkg.exe install boost-thread boost-date-time boost-chrono boost-serialization openssl --triplet x64-windows-static
-          echo "VCPKG_ROOT=C:\vcpkg" >> $env:GITHUB_ENV
+          C:\vcpkg\vcpkg.exe install `
+            boost-thread boost-date-time boost-chrono boost-serialization `
+            openssl --triplet x64-windows-static
 
       - name: Configure
         run: |
-          cmake -S . -B build `
-            -G "Visual Studio 17 2022" -A x64 `
-            -DCMAKE_BUILD_TYPE=Release `
-            -DSTATIC=ON `
-            -DARCH=default `
+          cmake -S . -B build -G "Visual Studio 17 2022" -A x64 `
+            -DCMAKE_BUILD_TYPE=Release -DSTATIC=ON -DARCH=default `
             "-DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake" `
             -DVCPKG_TARGET_TRIPLET=x64-windows-static
 
@@ -283,44 +300,146 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path dist
-          $bins = "XTCASHnetwork","cmdwallet","cmdwalletbeta","XTCASHservice","XTCASHwalletapi","MINER","walletupgrader","cryptotest"
-          foreach ($bin in $bins) {
-            $src = "build/src/Release/$bin.exe"
+          "XTCASHnetwork","cmdwallet","cmdwalletbeta","XTCASHservice","XTCASHwalletapi","MINER","walletupgrader","cryptotest" | ForEach-Object {
+            $src = "build/src/Release/$_.exe"
             if (Test-Path $src) { Copy-Item $src dist/ }
           }
           Compress-Archive -Path dist\* -DestinationPath traaittXTCASH-windows-x86_64.zip
-          $hash = (Get-FileHash traaittXTCASH-windows-x86_64.zip -Algorithm SHA256).Hash
-          "$hash  traaittXTCASH-windows-x86_64.zip" | Out-File traaittXTCASH-windows-x86_64.zip.sha256
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: traaittXTCASH-windows-x86_64
-          path: |
-            traaittXTCASH-windows-x86_64.zip
-            traaittXTCASH-windows-x86_64.zip.sha256
+          name: windows-x86_64
+          path: traaittXTCASH-windows-x86_64.zip
 
-  # ── Publish to GitHub Release ────────────────────────────────────────────────
+  # ── Sign + Release ───────────────────────────────────────────────────────────
   release:
     name: Publish Release
-    needs: [build-macos, build-linux-x86_64, build-linux-aarch64, build-windows]
+    needs:
+      - build-macos-arm64
+      - build-macos-x86_64
+      - build-linux-x86_64
+      - build-linux-aarch64
+      - build-windows-x86_64
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/')
     permissions:
       contents: write
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
-          path: release-artifacts
+          path: artifacts
           merge-multiple: true
 
-      - name: List release assets
-        run: ls -lh release-artifacts/
+      - name: Import GPG key
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          echo "$GPG_PRIVATE_KEY" | base64 --decode | \
+            gpg --batch --import --passphrase "$GPG_PASSPHRASE"
+          echo "${{ env.GPG_FINGERPRINT }}:6:" | gpg --import-ownertrust
 
-      - name: Publish to GitHub Release
+      - name: GPG-sign all artifacts
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          cd artifacts
+          for f in *; do
+            gpg --batch --yes --pinentry-mode loopback \
+              --passphrase "$GPG_PASSPHRASE" \
+              --local-user "${{ env.GPG_FINGERPRINT }}" \
+              --detach-sign --armor "$f"
+            echo "Signed: $f"
+          done
+
+      - name: Copy release public key
+        run: cp trrxitte-release-key.asc artifacts/
+
+      - name: Generate SHA256 checksums
+        run: |
+          cd artifacts
+          sha256sum *.dmg *.tar.gz *.zip *.asc 2>/dev/null | \
+            tee SHA256SUMS.txt || true
+
+      - name: Build release notes
+        id: notes
+        run: |
+          VERSION="${{ github.ref_name }}"
+          DATE=$(date -u '+%Y-%m-%d')
+          CHECKSUMS=$(cat artifacts/SHA256SUMS.txt)
+
+          cat > release_body.md << RELEASE_EOF
+          ## traaittXTCASH ${VERSION} — $(date -u '+%B %d, %Y')
+
+          Full multi-platform release of the TRRXITTE XTCASH network binaries.
+
+          ---
+
+          ### Platforms
+
+          | Artifact | Platform |
+          |----------|----------|
+          | \`traaittXTCASH-macos-arm64.dmg\` | macOS Apple Silicon (arm64), signed & notarized |
+          | \`traaittXTCASH-macos-x86_64.dmg\` | macOS Intel (x86_64), signed & notarized |
+          | \`traaittXTCASH-linux-x86_64.tar.gz\` | Linux x86_64 (static) |
+          | \`traaittXTCASH-linux-aarch64.tar.gz\` | Linux ARM64 (static) |
+          | \`traaittXTCASH-windows-x86_64.zip\` | Windows x86_64 |
+
+          ---
+
+          ### Verification
+
+          All artifacts are GPG-signed with the TRRXITTE release key.
+
+          **Key:** \`trrxitte-release-key.asc\` (included in release)
+          **Fingerprint:** \`9A9F 4ABE 01A7 CC6D 0474  035D 7530 2358 8E03 0016\`
+          **Identity:** TRRXITTE Int., incorporate \`<integration@trrxitte.com>\`
+          **Algorithm:** RSA 4096-bit
+
+          \`\`\`bash
+          # Import the release key
+          gpg --import trrxitte-release-key.asc
+
+          # Verify an artifact (example: Linux x86_64)
+          gpg --verify traaittXTCASH-linux-x86_64.tar.gz.sig \
+                       traaittXTCASH-linux-x86_64.tar.gz
+
+          # Verify SHA256 checksums
+          sha256sum --check SHA256SUMS.txt
+          \`\`\`
+
+          ---
+
+          ### SHA256 Checksums
+
+          \`\`\`
+          ${CHECKSUMS}
+          \`\`\`
+
+          ---
+
+          ### What's Changed
+
+          See [CHANGELOG](https://github.com/TRRXITTE/traaittXTCASH/commits/${VERSION}) for full commit history.
+          RELEASE_EOF
+
+          echo "body_file=release_body.md" >> $GITHUB_OUTPUT
+
+      - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: release-artifacts/**
-          generate_release_notes: true
+          body_path: release_body.md
+          generate_release_notes: false
+          files: |
+            artifacts/*.dmg
+            artifacts/*.dmg.asc
+            artifacts/*.tar.gz
+            artifacts/*.tar.gz.asc
+            artifacts/*.zip
+            artifacts/*.zip.asc
+            artifacts/trrxitte-release-key.asc
+            artifacts/SHA256SUMS.txt

@@ -44,7 +44,7 @@ endif ()
 
 find_package(Threads)
 
-set(VERSION "0.2")
+set(VERSION "0.10.47")
 
 ## This section describes our general CMake setup options
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
