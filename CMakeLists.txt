@@ -248,7 +248,10 @@ endif ()
 ## Go get us some static BOOST libraries
 set(Boost_NO_BOOST_CMAKE ON)
 set(Boost_USE_STATIC_LIBS ON)
-set(Boost_USE_STATIC_RUNTIME ON)
+# Homebrew on macOS does not ship static-runtime Boost variants; disable on Apple
+if (NOT APPLE)
+    set(Boost_USE_STATIC_RUNTIME ON)
+endif ()
 find_package(Boost REQUIRED COMPONENTS thread date_time chrono serialization)
 message(STATUS "Boost Found: ${Boost_INCLUDE_DIRS}")
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
