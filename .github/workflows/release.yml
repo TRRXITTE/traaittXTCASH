@@ -14,6 +14,10 @@ on:
         description: 'Skip builds — enter run ID of a previous successful build to publish those artifacts'
         type: string
         default: ''
+      tag_name:
+        description: 'Tag to publish to (e.g. 0.10.47) — required when using publish_only'
+        type: string
+        default: ''
 
 # ── Required GitHub Secrets ──────────────────────────────────────────────────
 # GPG_PRIVATE_KEY        base64-encoded GPG private key (gpg --export-secret-keys | base64)
@@ -447,6 +451,7 @@ jobs:
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ github.event.inputs.tag_name || github.ref_name }}
           body_path: release_body.md
           generate_release_notes: false
           files: |
