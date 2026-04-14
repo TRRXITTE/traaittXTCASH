@@ -95,7 +95,6 @@ jobs:
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
         run: |
@@ -113,7 +112,6 @@ jobs:
 
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
@@ -187,7 +185,6 @@ jobs:
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
         run: |
@@ -204,7 +201,6 @@ jobs:
 
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
