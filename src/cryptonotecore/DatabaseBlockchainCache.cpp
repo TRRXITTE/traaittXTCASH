@@ -415,17 +415,18 @@ namespace CryptoNote
 
             auto result = batch.extractResult();
 
-            try
+            auto it = result.getKeyOutputGlobalIndexesForAmounts().find(std::make_pair(amount, globalOutputIndex));
+            if (it == result.getKeyOutputGlobalIndexesForAmounts().end())
             {
-                return result.getKeyOutputGlobalIndexesForAmounts().at(std::make_pair(amount, globalOutputIndex));
+                /* DB count is ahead of actual entries (corruption from a previous incomplete operation).
+                   Return a sentinel so lower_bound treats this index as beyond any real block height.
+                   The subsequent split write-batch will correct the count, self-healing the DB. */
+                PackedOutIndex sentinel;
+                sentinel.packedValue = std::numeric_limits<uint64_t>::max();
+                return sentinel;
             }
-            catch (std::exception &)
-            {
-                assert(false);
-                throw std::runtime_error(
-                    "Couldn't find key output for amount " + std::to_string(amount) + " with global output index "
-                    + std::to_string(globalOutputIndex));
-            }
+
+            return it->second;
         }
 
         std::map<IBlockchainCache::Amount, IBlockchainCache::GlobalOutputIndex> getMinGlobalIndexesByAmount(
