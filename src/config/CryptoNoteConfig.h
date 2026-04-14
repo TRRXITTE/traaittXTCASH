@@ -269,7 +269,7 @@ namespace CryptoNote
         const char MINER_CONFIG_FILE_NAME[] = "minerconf.json";
     } // namespace parameters
 
-    const char CRYPTONOTE_NAME[] = "traaittCASH";
+    const char CRYPTONOTE_NAME[] = "traaittXTCASH";
 
     const uint8_t TRANSACTION_VERSION_1 = 1;
 

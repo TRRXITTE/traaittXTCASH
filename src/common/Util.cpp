@@ -307,6 +307,16 @@ namespace Tools
 #ifdef WIN32
         // Windows
         config_folder = get_special_folder_path(CSIDL_APPDATA, true) + "/" + CryptoNote::CRYPTONOTE_NAME;
+
+        /* Fall back to legacy traaittCASH directory if new one doesn't exist yet */
+        if (!fs::exists(config_folder))
+        {
+            std::string legacy = get_special_folder_path(CSIDL_APPDATA, true) + "/traaittCASH";
+            if (fs::exists(legacy))
+            {
+                return legacy;
+            }
+        }
 #else
         std::string pathRet;
         char *pszHome = getenv("HOME");
@@ -316,11 +326,30 @@ namespace Tools
             pathRet = pszHome;
 #ifdef MAC_OSX
         // Mac
-        pathRet /= "Library/Application Support";
-        config_folder = (pathRet + "/" + CryptoNote::CRYPTONOTE_NAME);
+        config_folder = (pathRet + "/Library/Application Support/" + CryptoNote::CRYPTONOTE_NAME);
+
+        /* Fall back to legacy traaittCASH directory if new one doesn't exist yet */
+        if (!fs::exists(config_folder))
+        {
+            std::string legacy = pathRet + "/Library/Application Support/traaittCASH";
+            if (fs::exists(legacy))
+            {
+                return legacy;
+            }
+        }
 #else
         // Unix
         config_folder = (pathRet + "/." + CryptoNote::CRYPTONOTE_NAME);
+
+        /* Fall back to legacy .traaittCASH directory if new one doesn't exist yet */
+        if (!fs::exists(config_folder))
+        {
+            std::string legacy = pathRet + "/.traaittCASH";
+            if (fs::exists(legacy))
+            {
+                return legacy;
+            }
+        }
 #endif
 #endif
 
