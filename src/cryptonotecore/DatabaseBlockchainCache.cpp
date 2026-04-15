@@ -1979,6 +1979,20 @@ namespace CryptoNote
         auto result = readDatabase(batch).getKeyOutputInfo();
         std::map<std::pair<IBlockchainCache::Amount, IBlockchainCache::GlobalOutputIndex>, KeyOutputInfo> sortedResult(
             result.begin(), result.end());
+
+        /* Verify every requested global index was actually found in the DB.
+           If any are missing we must return INVALID_GLOBAL_INDEX — silently
+           succeeding with fewer keys than signatures causes permanent sync stalls. */
+        for (auto it = globalIndexes.begin(); it != globalIndexes.end(); ++it)
+        {
+            if (sortedResult.count(std::make_pair(amount, *it)) == 0)
+            {
+                logger(Logging::WARNING) << "extractKeyOutputs: missing DB entry for amount "
+                                         << amount << " global index " << *it;
+                return ExtractOutputKeysResult::INVALID_GLOBAL_INDEX;
+            }
+        }
+
         for (const auto &kv : sortedResult)
         {
             ExtendedTransactionInfo tx;
