@@ -299,7 +299,7 @@ namespace CryptoNote
     };
 
     const size_t BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT = 20000; // block IDs tracked per sync cycle
-    const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 500;  // blocks downloaded per request batch (was 100)
+    const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100;  // blocks downloaded per request batch
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 2000; // max blocks per fast RPC call (was 1000)
 
     const int P2P_DEFAULT_PORT = 14487;
