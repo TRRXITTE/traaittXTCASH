@@ -87,7 +87,7 @@ jobs:
           security set-keychain-settings -lut 21600 "$KC"
           security unlock-keychain -p "" "$KC"
           security list-keychain -d user -s "$KC"
-          echo "$MACOS_CERT_BASE64" | base64 --decode > "$RUNNER_TEMP/cert.p12"
+          echo "$MACOS_CERT_BASE64" | tr -d '\n\r\t ' | base64 --decode > "$RUNNER_TEMP/cert.p12"
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
             -P "$MACOS_CERT_PASSWORD" -f pkcs12 -A \
             -T /usr/bin/codesign
@@ -178,7 +178,7 @@ jobs:
           security set-keychain-settings -lut 21600 "$KC"
           security unlock-keychain -p "" "$KC"
           security list-keychain -d user -s "$KC"
-          echo "$MACOS_CERT_BASE64" | base64 --decode > "$RUNNER_TEMP/cert.p12"
+          echo "$MACOS_CERT_BASE64" | tr -d '\n\r\t ' | base64 --decode > "$RUNNER_TEMP/cert.p12"
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
             -P "$MACOS_CERT_PASSWORD" -f pkcs12 -A \
             -T /usr/bin/codesign
