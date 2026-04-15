@@ -20,22 +20,19 @@ on:
         default: ''
 
 # ── Required GitHub Secrets ──────────────────────────────────────────────────
-# GPG_PRIVATE_KEY        base64-encoded GPG private key (gpg --export-secret-keys | base64)
-# GPG_PASSPHRASE         passphrase protecting the GPG key
-# MACOS_CERT_BASE64      base64-encoded Developer ID .p12 (base64 -i cert.p12)
-# MACOS_CERT_PASSWORD    password used when exporting the .p12
-# APPLE_SIGNING_IDENTITY "Developer ID Application: Christian Benz (MC52ZBYMUT)"
-# APPLE_ID               traaitt@gmail.com
-# APPLE_TEAM_ID          MC52ZBYMUT
-# APPLE_APP_PASSWORD     app-specific password for notarytool
+# GPG_PRIVATE_KEY                  base64-encoded GPG private key (gpg --export-secret-keys | base64)
+# GPG_PASSPHRASE                   passphrase protecting the GPG key
+# MACOS_CERT_BASE64                base64-encoded Developer ID .p12 (base64 -i cert.p12)
+# MACOS_CERT_PASSWORD              password used when exporting the .p12
+# APP_STORE_CONNECT_API_KEY        base64-encoded App Store Connect .p8 API key
+# APP_STORE_CONNECT_KEY_ID         App Store Connect API Key ID (e.g. ABC1234567)
+# APP_STORE_CONNECT_ISSUER_ID      App Store Connect Issuer UUID
 # ─────────────────────────────────────────────────────────────────────────────
 
 env:
   BINARIES: "XTCASHnetwork cmdwallet cmdwalletbeta XTCASHservice XTCASHwalletapi MINER walletupgrader cryptotest"
   GPG_FINGERPRINT: "9A9F4ABE01A7CC6D0474035D753023588E030016"
   GPG_IDENTITY: "TRRXITTE Int., incorporate <integration@trrxitte.com>"
-  APPLE_ID: "traaitt@gmail.com"
-  APPLE_TEAM_ID: "MC52ZBYMUT"
   APPLE_SIGNING_IDENTITY: "Developer ID Application: Christian Benz (MC52ZBYMUT)"
 
 jobs:
@@ -81,7 +78,6 @@ jobs:
 
       - name: Import certificate
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
           MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
@@ -116,12 +112,15 @@ jobs:
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
-          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+          APP_STORE_CONNECT_API_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY }}
+          APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
         run: |
+          echo "$APP_STORE_CONNECT_API_KEY" | base64 --decode > "$RUNNER_TEMP/notary-key.p8"
           xcrun notarytool submit traaittXTCASH-macos-arm64.dmg \
-            --apple-id "$APPLE_ID" \
-            --team-id "$APPLE_TEAM_ID" \
-            --password "$APPLE_APP_PASSWORD" \
+            --key "$RUNNER_TEMP/notary-key.p8" \
+            --key-id "$APP_STORE_CONNECT_KEY_ID" \
+            --issuer "$APP_STORE_CONNECT_ISSUER_ID" \
             --wait
           xcrun stapler staple traaittXTCASH-macos-arm64.dmg
 
@@ -169,7 +168,6 @@ jobs:
 
       - name: Import certificate
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
-        continue-on-error: true
         env:
           MACOS_CERT_BASE64: ${{ secrets.MACOS_CERT_BASE64 }}
           MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
@@ -203,12 +201,15 @@ jobs:
       - name: Notarize + Staple
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
-          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+          APP_STORE_CONNECT_API_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY }}
+          APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
         run: |
+          echo "$APP_STORE_CONNECT_API_KEY" | base64 --decode > "$RUNNER_TEMP/notary-key.p8"
           xcrun notarytool submit traaittXTCASH-macos-x86_64.dmg \
-            --apple-id "$APPLE_ID" \
-            --team-id "$APPLE_TEAM_ID" \
-            --password "$APPLE_APP_PASSWORD" \
+            --key "$RUNNER_TEMP/notary-key.p8" \
+            --key-id "$APP_STORE_CONNECT_KEY_ID" \
+            --issuer "$APP_STORE_CONNECT_ISSUER_ID" \
             --wait
           xcrun stapler staple traaittXTCASH-macos-x86_64.dmg
 
