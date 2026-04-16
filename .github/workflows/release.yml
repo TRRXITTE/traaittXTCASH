@@ -87,7 +87,11 @@ jobs:
           security create-keychain -p "$KC_PASS" "$KC"
           security set-keychain-settings -lut 21600 "$KC"
           security unlock-keychain -p "$KC_PASS" "$KC"
-          printf '%s' "$MACOS_CERT_BASE64" | tr -d ' \t\n\r' | openssl base64 -d -A -out "$RUNNER_TEMP/cert.p12"
+          python3 -c "import base64,os,sys; sys.stdout.buffer.write(base64.decodebytes(os.environ['MACOS_CERT_BASE64'].encode()))" > "$RUNNER_TEMP/cert.p12"
+          [[ -s "$RUNNER_TEMP/cert.p12" ]] || { echo "::error::cert.p12 empty after decode"; exit 1; }
+          openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
+            && echo "PKCS12 OK" \
+            || { echo "::error::PKCS12 parse failed — check MACOS_CERT_PASSWORD"; exit 1; }
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
             -P "$MACOS_CERT_PASSWORD" \
             -T /usr/bin/codesign \
@@ -95,7 +99,7 @@ jobs:
             -f pkcs12 -A
           security list-keychains -d user -s "$KC"
           security default-keychain -s "$KC"
-          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KC_PASS" "$KC"
+          security set-key-partition-list -S "apple-tool:,apple:,codesign:" -s -k "$KC_PASS" "$KC"
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
@@ -182,7 +186,11 @@ jobs:
           security create-keychain -p "$KC_PASS" "$KC"
           security set-keychain-settings -lut 21600 "$KC"
           security unlock-keychain -p "$KC_PASS" "$KC"
-          printf '%s' "$MACOS_CERT_BASE64" | tr -d ' \t\n\r' | openssl base64 -d -A -out "$RUNNER_TEMP/cert.p12"
+          python3 -c "import base64,os,sys; sys.stdout.buffer.write(base64.decodebytes(os.environ['MACOS_CERT_BASE64'].encode()))" > "$RUNNER_TEMP/cert.p12"
+          [[ -s "$RUNNER_TEMP/cert.p12" ]] || { echo "::error::cert.p12 empty after decode"; exit 1; }
+          openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
+            && echo "PKCS12 OK" \
+            || { echo "::error::PKCS12 parse failed — check MACOS_CERT_PASSWORD"; exit 1; }
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
             -P "$MACOS_CERT_PASSWORD" \
             -T /usr/bin/codesign \
@@ -190,7 +198,7 @@ jobs:
             -f pkcs12 -A
           security list-keychains -d user -s "$KC"
           security default-keychain -s "$KC"
-          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KC_PASS" "$KC"
+          security set-key-partition-list -S "apple-tool:,apple:,codesign:" -s -k "$KC_PASS" "$KC"
 
       - name: Sign binaries
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
