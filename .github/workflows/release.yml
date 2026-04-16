@@ -89,7 +89,7 @@ jobs:
           security unlock-keychain -p "$KC_PASS" "$KC"
           python3 -c "import base64,os,sys; sys.stdout.buffer.write(base64.decodebytes(os.environ['MACOS_CERT_BASE64'].encode()))" > "$RUNNER_TEMP/cert.p12"
           [[ -s "$RUNNER_TEMP/cert.p12" ]] || { echo "::error::cert.p12 empty after decode"; exit 1; }
-          openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
+          /usr/bin/openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
             && echo "PKCS12 OK" \
             || { echo "::error::PKCS12 parse failed — check MACOS_CERT_PASSWORD"; exit 1; }
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
@@ -194,7 +194,7 @@ jobs:
           security unlock-keychain -p "$KC_PASS" "$KC"
           python3 -c "import base64,os,sys; sys.stdout.buffer.write(base64.decodebytes(os.environ['MACOS_CERT_BASE64'].encode()))" > "$RUNNER_TEMP/cert.p12"
           [[ -s "$RUNNER_TEMP/cert.p12" ]] || { echo "::error::cert.p12 empty after decode"; exit 1; }
-          openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
+          /usr/bin/openssl pkcs12 -in "$RUNNER_TEMP/cert.p12" -noout -passin env:MACOS_CERT_PASSWORD \
             && echo "PKCS12 OK" \
             || { echo "::error::PKCS12 parse failed — check MACOS_CERT_PASSWORD"; exit 1; }
           security import "$RUNNER_TEMP/cert.p12" -k "$KC" \
