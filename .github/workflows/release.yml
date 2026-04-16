@@ -118,13 +118,10 @@ jobs:
             codesign --verify --verbose "$f"
           done
 
-      - name: Package DMG
-        run: |
-          hdiutil create -volname "traaittXTCASH-arm64" \
-            -srcfolder dist -ov -format UDZO \
-            traaittXTCASH-macos-arm64.dmg
+      - name: Package zip
+        run: ditto -c -k --sequesterRsrc --keepParent dist traaittXTCASH-macos-arm64.zip
 
-      - name: Notarize + Staple
+      - name: Notarize
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
           APP_STORE_CONNECT_API_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY }}
@@ -132,17 +129,16 @@ jobs:
           APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
         run: |
           printf '%s' "$APP_STORE_CONNECT_API_KEY" | tr -d ' \t\n\r' | openssl base64 -d -A -out "$RUNNER_TEMP/notary-key.p8"
-          xcrun notarytool submit traaittXTCASH-macos-arm64.dmg \
+          xcrun notarytool submit traaittXTCASH-macos-arm64.zip \
             --key "$RUNNER_TEMP/notary-key.p8" \
             --key-id "$APP_STORE_CONNECT_KEY_ID" \
             --issuer "$APP_STORE_CONNECT_ISSUER_ID" \
             --wait
-          xcrun stapler staple traaittXTCASH-macos-arm64.dmg
 
       - uses: actions/upload-artifact@v4
         with:
           name: macos-arm64
-          path: traaittXTCASH-macos-arm64.dmg
+          path: traaittXTCASH-macos-arm64.zip
 
   # ── macOS x86_64 (Intel) ────────────────────────────────────────────────────
   build-macos-x86_64:
@@ -222,13 +218,10 @@ jobs:
               --sign "$SIGNING_IDENTITY" --keychain "$SIGN_KC" "$f"
           done
 
-      - name: Package DMG
-        run: |
-          hdiutil create -volname "traaittXTCASH-x86_64" \
-            -srcfolder dist -ov -format UDZO \
-            traaittXTCASH-macos-x86_64.dmg
+      - name: Package zip
+        run: ditto -c -k --sequesterRsrc --keepParent dist traaittXTCASH-macos-x86_64.zip
 
-      - name: Notarize + Staple
+      - name: Notarize
         if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.sign_macos == 'true'
         env:
           APP_STORE_CONNECT_API_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY }}
@@ -236,17 +229,16 @@ jobs:
           APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
         run: |
           printf '%s' "$APP_STORE_CONNECT_API_KEY" | tr -d ' \t\n\r' | openssl base64 -d -A -out "$RUNNER_TEMP/notary-key.p8"
-          xcrun notarytool submit traaittXTCASH-macos-x86_64.dmg \
+          xcrun notarytool submit traaittXTCASH-macos-x86_64.zip \
             --key "$RUNNER_TEMP/notary-key.p8" \
             --key-id "$APP_STORE_CONNECT_KEY_ID" \
             --issuer "$APP_STORE_CONNECT_ISSUER_ID" \
             --wait
-          xcrun stapler staple traaittXTCASH-macos-x86_64.dmg
 
       - uses: actions/upload-artifact@v4
         with:
           name: macos-x86_64
-          path: traaittXTCASH-macos-x86_64.dmg
+          path: traaittXTCASH-macos-x86_64.zip
 
   # ── Linux x86_64 ────────────────────────────────────────────────────────────
   build-linux-x86_64:
@@ -437,7 +429,7 @@ jobs:
       - name: Generate SHA256 checksums
         run: |
           cd artifacts
-          sha256sum *.dmg *.tar.gz *.zip 2>/dev/null | tee SHA256SUMS.txt || true
+          sha256sum *.zip *.tar.gz 2>/dev/null | tee SHA256SUMS.txt || true
 
       - name: Build release notes
         id: notes
@@ -455,8 +447,8 @@ jobs:
 
           | Artifact | Platform |
           |----------|----------|
-          | \`traaittXTCASH-macos-arm64.dmg\` | macOS Apple Silicon (arm64) |
-          | \`traaittXTCASH-macos-x86_64.dmg\` | macOS Intel (x86_64) |
+          | \`traaittXTCASH-macos-arm64.zip\` | macOS Apple Silicon (arm64) |
+          | \`traaittXTCASH-macos-x86_64.zip\` | macOS Intel (x86_64) |
           | \`traaittXTCASH-linux-x86_64.tar.gz\` | Linux x86_64 (static) |
           | \`traaittXTCASH-linux-aarch64.tar.gz\` | Linux ARM64 (static) |
           | \`traaittXTCASH-windows-x86_64.zip\` | Windows x86_64 |
@@ -481,7 +473,6 @@ jobs:
           body_path: release_body.md
           generate_release_notes: false
           files: |
-            artifacts/*.dmg
             artifacts/*.tar.gz
             artifacts/*.zip
             artifacts/SHA256SUMS.txt
